@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="efc305a6-a627-4260-85f8-e2300ca9d5fc">
+      <active>true</active>
+      <description>ENG</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_ENGINE)" UUID="68305f20-5172-49ab-8967-5f529da720a2" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 9" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f1994d3f-c6f6-42ec-af26-cac153fe28f8">
+      <active>true</active>
+      <description>BLEED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_BLEED)" UUID="69720f9d-abb7-437c-bad1-6961a92c14aa" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 10" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="31bb3b4f-cd77-4d6f-80bf-ca1f2dd73f6c">
+      <active>true</active>
+      <description>PRESS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_CAB_PRESS)" UUID="e718155b-e47f-4396-8d11-6d89ccf547d1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 11" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c9498962-1ade-49b5-8f00-f2ada1a2b132">
+      <active>true</active>
+      <description>ELEC</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_ELEC)" UUID="083a0255-1a67-41ab-853d-93c83b2defee" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 12" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="18ddf6b0-48e0-4f71-bb44-f9bc50db32c0">
+      <active>true</active>
+      <description>HYD</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_HYD)" UUID="2dd881b7-c845-449d-a41b-5d90b3fd3abc" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 13" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="27257778-70b7-4601-b969-156eabf2f267">
+      <active>true</active>
+      <description>FUEL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_FUEL)" UUID="14bc5f78-312c-48c2-a97f-dd7c9d45df7d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 14" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b891dc6e-1b1f-4039-b5f3-c809131491db">
+      <active>true</active>
+      <description>APU</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_APU)" UUID="1e964314-b911-4396-98b5-5d89b1c0358f" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 15" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dd2ce744-c8b6-4d35-9d23-816454ed1916">
+      <active>true</active>
+      <description>COND</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_COND)" UUID="a1be013f-4856-44d3-b2e2-330db954bdb2" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 30" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8df5789e-e13f-472c-8a6b-0ddc63710034">
+      <active>true</active>
+      <description>DOOR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_DOOR)" UUID="eb41cfbf-3441-459d-87ec-79c48efc4380" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 31" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8362f9a1-5378-4855-a791-0edc321d1778">
+      <active>true</active>
+      <description>WHEEL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_WHEEL)" UUID="3ba99a15-ffd5-4bab-9d7c-f1de9d2ffa59" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 4" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fa0d2a94-c247-4c70-aaa0-13a727b57df4">
+      <active>true</active>
+      <description>F/CTL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_FCTL)" UUID="fdf04fd6-46ba-4701-b1f1-965783b0ed4f" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 5" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4ca0985c-df72-44ab-a8f5-fe1499f4dddb">
+      <active>true</active>
+      <description>CLR-L</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_CLR_LEFT)" UUID="5dfa1ebd-1b5b-4d28-992c-d10c38979ae0" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 6" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4f9a8e53-14db-44fb-bf51-e2da6bc86f1a">
+      <active>true</active>
+      <description>STS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_STATUS)" UUID="9fb49ccc-04a7-4bc6-bae7-f10b4a37ae7c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 7" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="30cb8142-f1bf-40db-b5af-17384e277f79">
+      <active>true</active>
+      <description>CLR-R</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_CLR_RIGHT)" UUID="2b0b6e37-e7aa-4f1b-bd6d-edc7ab7dca6a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 8" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5371709d-1643-4035-b503-bf5171204d4e">
+      <active>true</active>
+      <description>EMER CANC ON</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_EMER_CANCEL)" UUID="e0c0e09c-f298-46e1-bbb9-10ee2ae63efe" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 3" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3cffc501-f393-49c7-a9c0-8edbce85bb5d">
+      <active>true</active>
+      <description>AUTO BRK LO DECEL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOBRAKE_LO_U)" UUID="7598d4a6-f844-4fdd-a623-422dfd39a174" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 22" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="62f26a7d-3c55-4b69-93fd-82503bb0e54b">
+      <active>true</active>
+      <description>AUTO BRK LO ON</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOBRAKE_LO_U)" UUID="7598d4a6-f844-4fdd-a623-422dfd39a174" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 23" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="29c09ea4-33a0-4ea2-a487-6f44142aacfe">
+      <active>true</active>
+      <description>AUTO BRK MED DECEL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOBRAKE_MED_U)" UUID="79f26531-8236-47f8-9854-d68f8dc8e2b9" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 24" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e7f418fe-1722-4dd7-aec6-3531e02788b4">
+      <active>true</active>
+      <description>AUTO BRK MED ON </description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOBRAKE_MED_L)" UUID="312c1115-898f-4e97-8426-10866b29a94b" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 25" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e752d7fa-d8a9-4922-953e-ae194ba90d1f">
+      <active>true</active>
+      <description>AUTO BRK MAX DECEL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOBRAKE_MAX_U)" UUID="6d38c70d-6342-47fa-9264-223800cf6d3c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 26" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8e8704ca-8dbf-4583-9e2e-bde34b68942c">
+      <active>true</active>
+      <description>AUTO BRK MAX ON</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOBRAKE_MAX_L)" UUID="fc1d4c4d-5b73-4085-a3ca-cbe555ebb95f" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 27" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="404a00c5-296a-4b50-b29f-3876299d3092">
+      <active>true</active>
+      <description>BRK FAN ON</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_BRAKE_FAN_L)" UUID="71f795c8-523d-443b-a8ee-03c11e88703c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 28" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a7955eda-5db2-4ad9-b630-0f6fd44ffd0c">
+      <active>true</active>
+      <description>BRK FAN HOT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_BRAKE_FAN_U)" UUID="e3e4891d-3558-4b25-b974-d260069e64e1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 0" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0f6e74ed-cfb8-416d-a031-aea9fcd30157">
+      <active>true</active>
+      <description>TERR ON ND</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GPWS_TERRAIN_ON_ND_FO_L)" UUID="dd4a5171-8f3d-42a6-8d18-58d420ee074e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 29" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="40e8746a-4ce0-4427-a239-4b02f3a7e0d6">
+      <active>true</active>
+      <description>LDG GEAR UNLK 1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GEAR_1_U)" UUID="7142c79b-bced-4424-b5d0-e1ee326bab08" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 16" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4fbbf6bc-8fe1-4a2f-b416-1bf9ec586c01">
+      <active>true</active>
+      <description>LDG GEAR UNLK 2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GEAR_2_U)" UUID="ccdf88e7-597b-4bc6-8c44-4e32696b5449" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 18" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8b37626c-d00a-4b68-b78f-e97d3181503d">
+      <active>true</active>
+      <description>LDG GEAR UNLK 3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GEAR_3_U)" UUID="4f8c91b2-3687-4b7c-abca-da7bf0b4d0ba" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 20" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="470970f1-1396-4079-9a87-5ac975605381">
+      <active>true</active>
+      <description>LDG GEAR G 1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GEAR_1_L)" UUID="87d4c692-73e8-4448-81b6-12dd09a0575c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 17" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f9d628f8-f65c-494a-ae4f-1ea422844441">
+      <active>true</active>
+      <description>LDG GEAR G 2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GEAR_2_L)" UUID="b6d3c141-92ee-4d3d-9091-d206606b0b74" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 19" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d9545f0a-3bff-4259-ae07-3cbe5940d11c">
+      <active>true</active>
+      <description>LDG GEAR G 3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GEAR_3_L)" UUID="51b5025c-c71e-4442-b9f9-6dce3e4cdaf1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfir FCP ECAM/ SN-98E-490" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 21" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="fd22b98f-5e5e-4c1d-a6ad-d9512a8c3ea1">
+      <active>true</active>
+      <description>AUTO BRK LO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_AUTOBRAKE_LO)" presetId="004a94cd-3a38-45ae-8427-4317c58fce07" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_AUTOBRAKE_LO)" presetId="5c001846-ddc5-404a-80c4-7033585156aa" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="19813b5e-9912-4d2e-805c-27d4be2356ce">
+      <active>true</active>
+      <description>AUTO BRK MED</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_AUTOBRAKE_MED)" presetId="40f29bec-1432-41fe-be49-fab1759fe1b0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_AUTOBRAKE_MED)" presetId="58273681-4b77-4789-89ab-1eceeb41c5ee" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4a842a59-9732-4215-bfc4-2a7eb54c0e72">
+      <active>true</active>
+      <description>AUTO BRK MAX</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_AUTOBRAKE_MAX)" presetId="1497b413-6679-4819-9a36-166184847a32" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_AUTOBRAKE_MAX)" presetId="e34178dd-e7e8-4f2d-92c5-c4fb364c5f11" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="de6ccc1f-5e65-4a17-a968-ffaabc5dfba6">
+      <active>true</active>
+      <description>ECAM TO CONFIG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_TO)" presetId="cc4767ec-bc05-4956-90f6-69116c3dde5b" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_TO)" presetId="460d4706-3b71-40b3-96bf-31ec88b3cbc5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="de7df18e-65f4-499d-980f-482d866bad5b">
+      <active>true</active>
+      <description>ECAM ALL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_ALL)" presetId="0c066674-e3d1-45bb-b524-4a4640b2bb54" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_ALL)" presetId="efcb14d2-6e90-48a3-a496-31ddc0ba7fa9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="aa1913fc-c085-421b-8c64-c4f16736295e">
+      <active>true</active>
+      <description>ECAM RCL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_RCL)" presetId="f7fbcaf8-e648-4c4b-a75d-4557185ad7cd" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_RCL)" presetId="b39e8125-71e9-456f-8c0d-667b1bf2308c" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8f3fde61-efa0-4ac3-b4bb-1ece27209581">
+      <active>true</active>
+      <description>ECAM EMER CANC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_EMER_CANCEL)" presetId="4b4853db-f106-451d-85ba-94bbf2d3e037" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_EMER_CANCEL)" presetId="ae0f546f-e3b9-47d1-b9e0-5e483236376f" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="83b13944-9c59-4aca-a580-69b4a456f016">
+      <active>true</active>
+      <description>ECAM ENG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_ENGINE)" presetId="6559beaa-66c6-4cd0-8dbc-710137676268" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_ENGINE)" presetId="3ec4e4f8-768a-49fa-8d84-5c015ce8c4d0" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f701c300-b36e-40a5-8321-e1baf6a1dee9">
+      <active>true</active>
+      <description>ECAM BLEED</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_BLEED)" presetId="cf0f56b9-6a55-4c77-a951-4b1e0a670b14" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_BLEED)" presetId="690edd3b-5ff4-4758-845c-3b7597fbfe51" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="67c94f88-b60b-4a1d-902f-d05b65e502da">
+      <active>true</active>
+      <description>ECAM PRESS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_CAB_PRESS)" presetId="46516211-9437-4bc5-a0ac-ced223635bb0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_CAB_PRESS)" presetId="744e66b0-d4e7-44b0-ab17-08a95e6fc292" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f5a55814-a47f-414b-bdf1-5a41fdce118f">
+      <active>true</active>
+      <description>ECAM ELEC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_ELEC)" presetId="dbed7618-768f-4832-a62d-ad5b8f01342b" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_ELEC)" presetId="6800adf0-192b-42e7-b1c4-ed841c80ba12" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="11804b9b-36ee-4bd4-a662-10658e7c364a">
+      <active>true</active>
+      <description>ECAM HYD</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_HYD)" presetId="03a97c2c-ce5f-42f8-bfd7-fe89c1d3cd1c" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_HYD)" presetId="1336940b-9959-4714-a5ef-db9cd9ab5559" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ab6b332a-a3db-4345-8de3-896fbca0a28f">
+      <active>true</active>
+      <description>ECAM FUEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_FUEL)" presetId="7e2e94f1-adcf-4cea-8e3d-336c9617a65c" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_FUEL)" presetId="4f9fbf4e-6b7f-41f5-ace9-e405cb77e07f" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="535a604a-8ca1-4e2b-b9e4-8489e8e3e744">
+      <active>true</active>
+      <description>ECAM APU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_APU)" presetId="0d53841e-8908-4e3f-bc8f-c308aaee1e17" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_APU)" presetId="34c4ae7d-b868-4df1-97e3-189e9c114919" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7900ac37-2d83-4b7b-898f-4efa73989780">
+      <active>true</active>
+      <description>ECAM COND</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_COND)" presetId="6da97759-7b58-4444-a5f5-469990b8c1c8" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_COND)" presetId="0ae6f3ed-3f6e-4a8a-8b54-c13a3d532719" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b4a89fbc-6588-400f-ae8f-9da635d4749d">
+      <active>true</active>
+      <description>ECAM DOOR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_DOOR)" presetId="27ee001b-3260-4fa8-adee-af2cd1874ee0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_DOOR)" presetId="824679f9-1e24-4547-afb8-8a936f6d496d" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="23c65ed6-e3df-4816-944d-ce7129b8ce77">
+      <active>true</active>
+      <description>ECAM WHEEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_WHEEL)" presetId="a325abb7-634f-4516-9d72-3da78afd05eb" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_WHEEL)" presetId="08ca8611-6b56-4653-a8d6-4936f958c4d3" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1e573eaa-7e97-415f-acbc-930edd0d5166">
+      <active>true</active>
+      <description>ECAM F/CTL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_FCTL)" presetId="9c16fc8f-7d46-413d-8596-049456564710" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_FCTL)" presetId="eac35c6c-1274-4631-81f4-3a0972fec9e2" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="aaf2c69f-3883-4731-aec3-0acd8276e511">
+      <active>true</active>
+      <description>ECAM CLR-L</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_CLR_LEFT)" presetId="9662bcd9-4b27-40c7-9c5a-5fc8313c6595" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_CLR_LEFT)" presetId="177dfa3d-171d-4efc-b48a-6d85c6697417" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="70a0d585-eb61-46a1-adfd-97a98af4a259">
+      <active>true</active>
+      <description>ECAM STS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_STATUS)" presetId="03b4526e-a452-4644-82ee-b1a78688c16e" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_STATUS)" presetId="b2ecf8af-df63-4496-9b67-37bec219a018" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a36065a1-8a17-436c-a613-6204e0555c77">
+      <active>true</active>
+      <description>ECAM CLR-R</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_CLR_RIGHT)" presetId="0b925210-07a8-42a8-9bd5-1abd3575ed03" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_CLR_RIGHT)" presetId="9b2f1775-7f88-4ca0-99c6-e8ab07ecc9e9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7f2be075-d3c1-4fe6-ae8c-2e741cbc3c6e">
+      <active>true</active>
+      <description>BRK FAN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_MIP_BRAKE_FAN) ! (&gt;L:S_MIP_BRAKE_FAN) " presetId="c1e8619d-9a83-43da-8f21-445b71646d92" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fde09309-0d4f-4456-9bc8-56f5c445b060">
+      <active>true</active>
+      <description>MASTER WARNING</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_MASTER_WARNING_CAPT)" presetId="fda75fb3-ea20-4039-924d-35843bf170f8" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_MASTER_WARNING_CAPT)" presetId="33a72d83-7b1c-43f7-86be-20336890f26a" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="39d2571b-adcc-496e-b8f5-b7eb94c7e294">
+      <active>true</active>
+      <description>MASTER CAUTION</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_MASTER_CAUTION_CAPT)" presetId="844757c8-e17a-47df-b676-5ce87f815eac" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_MASTER_CAUTION_CAPT)" presetId="77f527d6-5720-4461-9244-0045be056b62" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="07958112-3c43-4be6-8b50-a0e8ee8037a7">
+      <active>true</active>
+      <description>CHRONO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_CHRONO_CAPT)" presetId="40c05e64-74bb-4f08-acdf-2ff7a912e358" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_CHRONO_CAPT)" presetId="4d0c06b6-4a63-4de5-8917-828622e535bb" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="527ad77b-26d8-42f4-8be3-e000df2125a1">
+      <active>true</active>
+      <description>A-SKID&amp;N-W STRG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FC_MIP_ANTI_SKID) ! (&gt;L:S_FC_MIP_ANTI_SKID)" presetId="8737e173-7ed4-4cf3-b98f-8a8b6c4f51f1" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_FC_MIP_ANTI_SKID) ! (&gt;L:S_FC_MIP_ANTI_SKID)" presetId="8737e173-7ed4-4cf3-b98f-8a8b6c4f51f1" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="269de326-5c88-42fb-9881-5b7851dec6a0">
+      <active>true</active>
+      <description>TERR ON ND</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_GPWS_TERRAIN_ON_ND_FO)" presetId="d261923a-0214-4eb2-bb48-7d8b6045c6c2" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_GPWS_TERRAIN_ON_ND_FO)" presetId="af3495f9-11dd-47d5-a1a0-4a23364b2a58" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1c6790f1-40e3-49aa-a02d-1f74d9d05553">
+      <active>true</active>
+      <description>TERR ON ND (CAP)</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT)" presetId="63a9bc9d-9b8a-4fff-bfeb-33a425e4db8a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT)" presetId="c8b52a38-1d8d-4e13-b8dc-d90cd41c91c1" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d55fa54e-7c34-4fb1-a57b-48d0ef7888e4">
+      <active>true</active>
+      <description>GEAR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfir FCP ECAM/ SN-98E-490" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_GEAR)" presetId="a13875e1-b11a-48ab-8727-305a8a6f56ea" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_GEAR)" presetId="31d31b72-bea1-4e5e-981c-66e79649a046" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
