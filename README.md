@@ -4,7 +4,7 @@ Download link  https://www.mobiflight.com
 2.Install FSUIPC7.
 Download link  https://www.fsuipc.com/
 
-3.Open MobiFlightConnector and load the mcc configuration file. 
+3.Open MobiFlightConnector and load the mcc configuration file. （Select the configuration file that matches your hardware model and aircraft model.）
 
 4.Load Hardware Device (Only Needs to Be Done Once)
 
