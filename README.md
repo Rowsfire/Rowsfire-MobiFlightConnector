@@ -1,6 +1,8 @@
 1.Install MobiFlightConnector.
+Download link  https://www.mobiflight.com
 
 2.Install FSUIPC7.
+Download link  https://www.fsuipc.com/
 
 3.Open MobiFlightConnector and load the mcc configuration file. 
 
