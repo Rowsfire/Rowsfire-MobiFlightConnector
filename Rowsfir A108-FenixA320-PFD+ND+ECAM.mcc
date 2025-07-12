@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="bd826acb-6c17-4b24-a542-65400c4fc408">
+      <active>true</active>
+      <description>MASTERWARN</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_MASTER_WARNING_CAPT_L)" UUID="daeacf12-f9b8-49ef-b4ce-7e0ae972413d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="MobiFlight Nano/ SN-D7C-AA6" trigger="normal" pin="MASTERWARN-LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ffb8903f-d208-4206-90fa-231caa64ea68">
+      <active>true</active>
+      <description>MASTERCAUT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_MASTER_CAUTION_CAPT_L)" UUID="cc337376-9f00-45fe-91de-d88af3d3034d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="MobiFlight Nano/ SN-D7C-AA6" trigger="normal" pin="MASTERCAUT-LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2222680f-633a-42ff-932e-743628d84b1b">
+      <active>true</active>
+      <description>AUTOLAND</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_AUTOLAND_CAPT)" UUID="449d7bb2-4b52-4a5b-9856-2f3c2bb00ad3" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="MobiFlight Nano/ SN-D7C-AA6" trigger="normal" pin="AUTOLAND-LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e7849fce-c5b5-44f5-9ffd-96ead4deb0f1">
+      <active>true</active>
+      <description>TERRONND</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_MIP_GPWS_TERRAIN_ON_ND_CAPT_L)" UUID="7256246a-484e-4b37-bf6c-20a29efd11b4" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="MobiFlight Nano/ SN-D7C-AA6" trigger="normal" pin="TERRONND-LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="794fa86b-e9b6-4e07-8b30-0f8a27533b64">
+      <active>true</active>
+      <description>STS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_STATUS)" UUID="9fb49ccc-04a7-4bc6-bae7-f10b4a37ae7c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="MobiFlight Nano/ SN-D7C-AA6" trigger="normal" pin="STS-LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0d5ab859-1fc2-4fe5-80cd-04968b15bb58">
+      <active>true</active>
+      <description>CLR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_ECAM_CLR_LEFT)" UUID="5dfa1ebd-1b5b-4d28-992c-d10c38979ae0" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="MobiFlight Nano/ SN-D7C-AA6" trigger="normal" pin="CLR-LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="cefada79-170c-421f-904c-ee7884fc4ca7">
+      <active>true</active>
+      <description>MASTERWARN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="MASTERWARN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_MASTER_WARNING_CAPT)" presetId="fda75fb3-ea20-4039-924d-35843bf170f8" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_MASTER_WARNING_CAPT)" presetId="33a72d83-7b1c-43f7-86be-20336890f26a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1c00c580-ec4d-4566-8738-17e6f4f7adb3">
+      <active>true</active>
+      <description>MASTERCAUT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="MASTERCAUT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_MASTER_CAUTION_CAPT)" presetId="844757c8-e17a-47df-b676-5ce87f815eac" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_MASTER_CAUTION_CAPT)" presetId="77f527d6-5720-4461-9244-0045be056b62" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5b6d225d-0d93-4736-837b-0e554ec25cf6">
+      <active>true</active>
+      <description>AUTOLAND</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="AUTOLAND" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_AUTOLAND_CAPT)" presetId="fda736b2-0895-438d-a57a-65638cf655c0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_AUTOLAND_CAPT)" presetId="55350b28-6c32-40c3-91f3-7bd3190ef9cb" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="27148839-f407-40b5-9fc0-22b470d14827">
+      <active>true</active>
+      <description>CHRONO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="CHORND" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_CHRONO_CAPT)" presetId="40c05e64-74bb-4f08-acdf-2ff7a912e358" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_CHRONO_CAPT)" presetId="4d0c06b6-4a63-4de5-8917-828622e535bb" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a161a9d6-b4fe-497d-9699-15fe096f19eb">
+      <active>true</active>
+      <description>TERRONND</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="TERRONND" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT)" presetId="63a9bc9d-9b8a-4fff-bfeb-33a425e4db8a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT)" presetId="c8b52a38-1d8d-4e13-b8dc-d90cd41c91c1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dc05923c-3748-42c4-8f8f-d38638d0450f">
+      <active>true</active>
+      <description>TOCONFIG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="TOCONFIG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_TO)" presetId="cc4767ec-bc05-4956-90f6-69116c3dde5b" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_TO)" presetId="460d4706-3b71-40b3-96bf-31ec88b3cbc5" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5bef43e1-1c3f-4bac-9d3c-48302a61a9a7">
+      <active>true</active>
+      <description>ALL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="ALL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_ALL)" presetId="0c066674-e3d1-45bb-b524-4a4640b2bb54" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_ALL)" presetId="efcb14d2-6e90-48a3-a496-31ddc0ba7fa9" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c863d736-94ce-482e-9729-78f79611d539">
+      <active>true</active>
+      <description>RCL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="RCL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_RCL)" presetId="f7fbcaf8-e648-4c4b-a75d-4557185ad7cd" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_RCL)" presetId="b39e8125-71e9-456f-8c0d-667b1bf2308c" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4dc02ed8-9342-47af-95b3-352b15353e13">
+      <active>true</active>
+      <description>STS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="STS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_STATUS)" presetId="03b4526e-a452-4644-82ee-b1a78688c16e" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_STATUS)" presetId="b2ecf8af-df63-4496-9b67-37bec219a018" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d0b18ff1-1bc4-4162-8b12-de46ceae6fcf">
+      <active>true</active>
+      <description>CLR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-D7C-AA6" name="CLR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_ECAM_CLR_LEFT)" presetId="9662bcd9-4b27-40c7-9c5a-5fc8313c6595" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_ECAM_CLR_LEFT)" presetId="177dfa3d-171d-4efc-b48a-6d85c6697417" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
