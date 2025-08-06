@@ -27,4 +27,4 @@ Copy the \MSFS2020-module\mobiflight-event-module folder in the MobiFlightConnec
 Download link  https://www.wch.cn/download/file?id=65
 
 4.Rowsfire A108-A320-PFD-ND-ECAM uses the msfs-popout-panel-manager screen projection software.
-Download link  https://github.com/hawkeye-stan
+Download link  https://zh.flightsim.to/profile/hawkeyesk
