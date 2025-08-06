@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="50a4e460-6314-4bf7-9fae-74db15b83be1">
+      <active>true</active>
+      <description>STROBE OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="STROBE OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="bfc64c4c-784b-4976-82a8-4e3f807554e7" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="31574bf9-01f9-4542-8cb2-b16354d19b49" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7d6e81ef-e5f2-4370-bff8-9c8c2cc2ee36">
+      <active>true</active>
+      <description>BEACON ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="BEACON ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_BEACON)" presetId="4c259695-d621-4f01-88b0-7fdafae54887" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_BEACON)" presetId="f4796173-875c-494b-b9d1-9effe46ac7f6" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4341bf15-8915-4fdc-9b3e-c6ef3e94e296">
+      <active>true</active>
+      <description>STROBE ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="STROBE ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="4ea54556-bb64-47d8-9b51-1884d7cd4783" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="31574bf9-01f9-4542-8cb2-b16354d19b49" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f0742f0b-f26e-4790-91e3-f3018a6897d2">
+      <active>true</active>
+      <description>WING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="WING ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_WING)" presetId="62f0eac1-f0f8-40db-a335-d77c8a532c49" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_WING)" presetId="2d9b3720-c32d-437e-a782-3038827bdeba" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c2b9eb87-4863-46a9-8c40-caba215a1955">
+      <active>true</active>
+      <description>NAV &amp; LOGO 2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NAV &amp; LOGO 2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="790ae7a4-c0d5-4f82-ae86-f3d99efbd89e" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="0eaa2b40-027f-438f-88b8-57d5d22dc2c3" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2d992689-5c72-4945-9db2-65f8f6dee39e">
+      <active>true</active>
+      <description>NAV &amp; LOGO OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NAV &amp; LOGO OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="93fe44ff-2a36-4845-8d3f-234505161bbf" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="0eaa2b40-027f-438f-88b8-57d5d22dc2c3" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b07498db-d093-457a-ac69-335fbd4a1b14">
+      <active>true</active>
+      <description>RWY TURN OFF ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="RWY TURN OFF ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_RWY_TURNOFF)" presetId="941cf706-1d15-49b7-a07f-89ce8851ebc3" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_RWY_TURNOFF)" presetId="a5f393b9-28e7-477b-862f-44a96e4c78e5" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="466c6b88-cd75-4576-8924-871e179f174e">
+      <active>true</active>
+      <description>LAND L RETRACT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="LAND L RETRAO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="a32bd321-3d40-4fda-a6a4-7a747469fd47" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="279bd737-b267-47a5-89f6-45ff4ab829d9" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6b20b361-763c-4eee-b739-f3153c5e18c3">
+      <active>true</active>
+      <description>LAND L ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="LAND L ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="cb777bee-ece3-44bd-809c-6b31deb95507" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="279bd737-b267-47a5-89f6-45ff4ab829d9" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d8c76bc5-3cfd-4d7e-b1c8-3e6c9354c6e3">
+      <active>true</active>
+      <description>LAND R RETRACT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="LAND R RETRAO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="6c6cf33b-f101-4cf7-a2c5-86273d81b452" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="d73294a9-600c-4356-91cb-749159820a9b" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f3be8988-eaf6-4a0a-b3c6-e139786bf7b7">
+      <active>true</active>
+      <description>LAND R ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="LAND R ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="b805ce16-fddd-4ed8-b79d-f637492d55b8" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="d73294a9-600c-4356-91cb-749159820a9b" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="83a71545-4435-46ed-85ac-630527931d5f">
+      <active>true</active>
+      <description>NOSE OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NOSE TO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="a61f63e6-72ea-441e-aef3-e37e0eeba284" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="f6544070-23c5-43f0-bd78-e47fdb09fb11" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9099c760-20c9-4950-9542-5505e09f0dff">
+      <active>true</active>
+      <description>NOSE TO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NOSE OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="23b4c2f1-08b2-4daf-8f18-9e10941aeeaa" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="f6544070-23c5-43f0-bd78-e47fdb09fb11" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a54778dd-f1c4-4255-b3bf-72303c218c1b">
+      <active>true</active>
+      <description>PWS OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="PWS OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_WR_PRED_WS)" presetId="439fb5df-1a4f-42d4-a868-7fdc83a10b96" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_WR_PRED_WS)" presetId="d560e6c0-3458-428d-8dee-664e12238d48" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2aa3d30b-636e-4c65-bf6c-a9d67fc008e7">
+      <active>true</active>
+      <description>SYS 1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="SYS 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_WR_SYS)" presetId="a742fd39-4051-462e-8313-9ed82b12aca2" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_WR_SYS)" presetId="06e0d112-a74d-422c-a5a1-204a816c65e7" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a06dc173-7d62-42f2-847e-34add1cf455d">
+      <active>true</active>
+      <description>ON SMOKING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NO SMOK ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="2a71197c-a1fd-43bf-abcf-1339d910bb4c" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="81d9a384-bc1a-4375-9024-28b1446da2fa" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5a95510a-7771-4630-8d9f-a30ca678c197">
+      <active>true</active>
+      <description>SEAT BELTS ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="SEAT ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_SIGNS)" presetId="d0d6a561-ac95-48a5-ab85-76f2350f46e0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_SIGNS)" presetId="a0d0cbcf-752a-4182-9cd5-75c4c3633890" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

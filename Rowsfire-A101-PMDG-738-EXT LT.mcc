@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="50a4e460-6314-4bf7-9fae-74db15b83be1">
+      <active>true</active>
+      <description>STROBE OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="STROBE OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="100 (L:switch_123_73X,number) - 50 div s0 &#xA;:1 &#xA;l0 0 &gt; if{ 12301 (&gt;K:ROTOR_BRAKE) l0 -- s0 g1 } &#xA;l0 0 &lt; if{ 12302 (&gt;K:ROTOR_BRAKE) l0 ++ s0 g1 }" presetId="789c18ff-52b1-4bc0-a57c-df4154696549" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:switch_123_73X, number) s0 &#xA;l0 0 == if{ 12301 (&gt;K:ROTOR_BRAKE) }&#xA;l0 100  == if{ 12302 (&gt;K:ROTOR_BRAKE) }" presetId="98dbf4e6-afed-431f-9ade-e2cb84f59b46" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4341bf15-8915-4fdc-9b3e-c6ef3e94e296">
+      <active>true</active>
+      <description>STROBE ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="STROBE ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:switch_123_73X, number) s0&#xA;l0 0 == if{ 12301 (&gt;K:ROTOR_BRAKE) }&#xA;l0 50 == if{ 12302 (&gt;K:ROTOR_BRAKE) }&#xA;l0 100  == if{ 12302 (&gt;K:ROTOR_BRAKE) 12302 (&gt;K:ROTOR_BRAKE) }" presetId="4f626d01-6934-4ac2-944f-b9dcdf00ed7a" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:switch_123_73X, number) s0 &#xA;l0 0 == if{ 12301 (&gt;K:ROTOR_BRAKE) }&#xA;l0 100  == if{ 12302 (&gt;K:ROTOR_BRAKE) }" presetId="98dbf4e6-afed-431f-9ade-e2cb84f59b46" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7d6e81ef-e5f2-4370-bff8-9c8c2cc2ee36">
+      <active>true</active>
+      <description>BEACON ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="BEACON ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_124_73X, number) == if{ 12401 (&gt;K:ROTOR_BRAKE) } " presetId="73bb44fc-9d49-49c5-b173-4be09b3ec28c" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_124_73X, number) == if{ 12401 (&gt;K:ROTOR_BRAKE) } " presetId="cd027a94-64c5-41a1-ad4a-2944d4b91941" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f0742f0b-f26e-4790-91e3-f3018a6897d2">
+      <active>true</active>
+      <description>WING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="WING ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_125_73X, number) == if{ 12501 (&gt;K:ROTOR_BRAKE) }" presetId="54f691a3-1025-4667-814c-751fa15e37ac" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_125_73X, number) == if{ 12501 (&gt;K:ROTOR_BRAKE) }" presetId="855da315-1686-47fc-9184-7140b22e4918" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c2b9eb87-4863-46a9-8c40-caba215a1955">
+      <active>true</active>
+      <description>LOGO ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NAV &amp; LOGO 2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_122_73X, number) == if{ 12201 (&gt;K:ROTOR_BRAKE) } " presetId="e5102e91-167b-4cfe-b807-99ce3bc9b9b3" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_122_73X, number) == if{ 12201 (&gt;K:ROTOR_BRAKE) } " presetId="c354d514-70a4-4bf1-bff7-326511bd9027" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b07498db-d093-457a-ac69-335fbd4a1b14">
+      <active>true</active>
+      <description>RWY TURN OFF ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="RWY TURN OFF ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_115_73X, number) == if{ 11501 (&gt;K:ROTOR_BRAKE) }&#xA;0 (L:switch_116_73X, number) == if{ 11601 (&gt;K:ROTOR_BRAKE) }" presetId="66cced0f-1efa-4e3c-a45e-e086e29baaea" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_115_73X, number) == if{ 11501 (&gt;K:ROTOR_BRAKE) }&#xA;100 (L:switch_116_73X, number) == if{ 11601 (&gt;K:ROTOR_BRAKE) }" presetId="74a13793-c3ad-4ef6-8596-8e88b7d4ff70" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6b20b361-763c-4eee-b739-f3153c5e18c3">
+      <active>true</active>
+      <description>LAND L ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="LAND L ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_113_73X, number) == if{ 11301 (&gt;K:ROTOR_BRAKE) }" presetId="1a9ce0d7-92e3-4068-bebf-87d643b5e5f4" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_113_73X, number) == if{ 11301 (&gt;K:ROTOR_BRAKE) }" presetId="cf6fa6dc-6d91-40b9-bf1e-0ec5f474cd58" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f3be8988-eaf6-4a0a-b3c6-e139786bf7b7">
+      <active>true</active>
+      <description>LAND R ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="LAND R ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_114_73X, number) == if{ 11401 (&gt;K:ROTOR_BRAKE) }" presetId="9ccbf796-3f5a-4712-b555-f3ceea2fcf41" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_114_73X, number) == if{ 11401 (&gt;K:ROTOR_BRAKE) }" presetId="d3e13ce6-5ff0-426c-84ba-f847cb1f8747" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="83a71545-4435-46ed-85ac-630527931d5f">
+      <active>true</active>
+      <description>NOSE OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NOSE TO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="100 (L:switch_117_73X, number) == if{ 11701 (&gt;K:ROTOR_BRAKE) } " presetId="bffb9619-b88d-40b6-a371-9301a6921052" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (L:switch_117_73X, number) == if{ 11701 (&gt;K:ROTOR_BRAKE) } " presetId="f813b28d-cba7-4155-81ae-614f472c5a1c" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a54778dd-f1c4-4255-b3bf-72303c218c1b">
+      <active>true</active>
+      <description>ICE ENG 1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="PWS OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_157_73X, number) == if{ 15701 (&gt;K:ROTOR_BRAKE) }" presetId="a9333a3a-4354-49cf-8192-59c057fb7932" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_157_73X, number) == if{ 15702 (&gt;K:ROTOR_BRAKE) }" presetId="88bd9108-d1cc-4852-8d7d-1a1f6b7b9a6e" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b4912dac-3573-4ae1-b4f5-5e81586778ed">
+      <active>true</active>
+      <description>ICE ENG 2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="PWS OFF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_158_73X, number) == if{ 15801 (&gt;K:ROTOR_BRAKE) }" presetId="b1c63e82-69f7-4612-ad7c-a6b67ef81b6e" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_158_73X, number) == if{ 15802 (&gt;K:ROTOR_BRAKE) }" presetId="d11993c2-4309-4672-8e76-ec7cbed83369" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2aa3d30b-636e-4c65-bf6c-a9d67fc008e7">
+      <active>true</active>
+      <description>ICE WING</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="SYS 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="100 (L:switch_156_73X, number) == if{ 15602 (&gt;K:ROTOR_BRAKE) }" presetId="fc1f7feb-8da1-4294-aaa2-c3c876ee45c0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (L:switch_156_73X, number) == if{ 15601 (&gt;K:ROTOR_BRAKE) }" presetId="ede755a6-25b5-4261-be41-8d6e97b58305" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a06dc173-7d62-42f2-847e-34add1cf455d">
+      <active>true</active>
+      <description>NO SMOKING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="NO SMOK ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:switch_258_73X, number) s0 &#xA;l0 0 == if{ 25801 (&gt;K:ROTOR_BRAKE) }&#xA;l0 100  == if{ 25802 (&gt;K:ROTOR_BRAKE) }" presetId="e32b4212-a70a-4f30-8f7e-eb05503ad186" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:switch_258_73X, number) s0&#xA;l0 50 == if{ 25801 (&gt;K:ROTOR_BRAKE) }&#xA;l0 0  == if{ 25801 (&gt;K:ROTOR_BRAKE) 25801 (&gt;K:ROTOR_BRAKE) }" presetId="5281bd59-654b-4a33-8fbe-6b704057a837" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5a95510a-7771-4630-8d9f-a30ca678c197">
+      <active>true</active>
+      <description>SEAT BELTS ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A101/ SN-F70-ADF" name="SEAT ON" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (L:switch_126_73X, number) == if{ 12601 (&gt;K:ROTOR_BRAKE) }" presetId="79c35207-2df3-4404-bdfc-9836a79a1d81" />
+          <onRelease type="MSFS2020CustomInputAction" command="100 (L:switch_126_73X, number) == if{ 12601 (&gt;K:ROTOR_BRAKE) }" presetId="909d6290-c8ba-4c1a-8724-f5f959462851" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
