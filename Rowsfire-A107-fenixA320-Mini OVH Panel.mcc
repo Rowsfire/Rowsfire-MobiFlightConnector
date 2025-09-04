@@ -1,0 +1,1432 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="a24b9a0e-7f77-4bcd-aad5-09f45efc750a">
+      <active>true</active>
+      <description>ADIES</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_ADIRS_ON_BAT)" UUID="29ea09ce-94ee-446b-9dbb-2b15683555d2" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 1" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="62fa21f5-e324-4fca-9b75-bbd8712b6bf4">
+      <active>true</active>
+      <description>IR1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_IR1_SWITCH_U)" UUID="aca947cf-3663-42ed-bd31-5ebf623bdd80" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 0" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="44da83a7-b272-4659-87b4-6788b25bbd34">
+      <active>true</active>
+      <description>IR1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_IR1_SWITCH_L)" UUID="6f9656ce-e0a5-4ccb-be08-69f7c01d3693" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 9" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9bc61a4c-def6-400c-81d2-c30d96f8ddd6">
+      <active>true</active>
+      <description>IR3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_IR2_SWITCH_U)" UUID="f4c5b637-0b3f-43c2-9c84-0a76ac9128d8" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 12" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7fb13a06-4c4d-4405-ab7d-b922415af80c">
+      <active>true</active>
+      <description>IR3-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_IR2_SWITCH_L)" UUID="078aa215-e108-4f14-aef7-39725069dc6a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 13" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d9a76db3-55c1-4cf4-8cec-c3e62d8f3833">
+      <active>true</active>
+      <description>IR2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_IR3_SWITCH_U)" UUID="ab953230-e02b-4d32-a486-849a593da24a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 10" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="655e5210-7570-4a76-b7a6-af4511e4deab">
+      <active>true</active>
+      <description>IR2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_NAV_IR3_SWITCH_L)" UUID="0ce50bb3-5b2d-4dcc-89a7-4d9d811162fc" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 11" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="98135756-613e-4a36-847f-0ba6bf1e5f2b">
+      <active>true</active>
+      <description>LDG FLAP3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_GPWS_LDG_FLAP3_L)" UUID="5f2ae60c-eea9-403a-b1ef-b83528a48bc2" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 5" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="409f344c-9ebd-4da5-b6e5-edfd171f2e8b">
+      <active>true</active>
+      <description>GND CTL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_RCRD_GND_CTL_L)" UUID="7a1b7c76-85dd-4abc-b56e-c76c838122a5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 6" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="53848eac-8669-4524-84f4-c3bc505104cd">
+      <active>true</active>
+      <description>CREW SUPPLY</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_OXYGEN_CREW_OXYGEN_L)" UUID="4be15c2e-5b9a-4beb-be93-cd122475a0d4" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 7" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2cd4ff0a-d55e-4e74-b930-f975d1b6e78b">
+      <active>true</active>
+      <description>APUGEN1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_GENERATOR_U)" UUID="fcd7622b-450c-419d-a484-b6bce1788d31" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 2" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a0ef1703-a5b8-435f-933a-6f86b8e02e78">
+      <active>true</active>
+      <description>APUGEN2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_GENERATOR_L)" UUID="dae5aa58-5ab0-4c27-ad6b-c1175530d6f5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 3" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c7840008-9785-4a16-bc93-b93372354fef">
+      <active>true</active>
+      <description>PACK1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_1_U)" UUID="07035e90-6cbd-47d3-b589-1038e7bb4c4e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 4" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2b846f55-8cf6-4b3d-9385-b59a3e9be2d3">
+      <active>true</active>
+      <description>PACK1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_1_L)" UUID="0a4b7bdc-a742-4a76-bdde-c83ca922673a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 5" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4d10c12b-e426-4ea2-a3af-4ae0452278cb">
+      <active>true</active>
+      <description>APUBLEED1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_APU_BLEED_U)" UUID="28fb4a69-ea47-4561-9d46-29dcad72b096" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 6" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1f3f2f02-238f-41b6-9169-a9dd3c78eb91">
+      <active>true</active>
+      <description>APUBLEED2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_APU_BLEED_L)" UUID="a679f495-dab9-47f8-9151-a99018676132" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 7" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="27827ef8-965a-4fcf-ac80-cfb27fbc9c9a">
+      <active>true</active>
+      <description>PACK2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_2_U)" UUID="a44760b4-ccb9-427c-8e69-7e6fa86be910" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 0" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f36ecd4b-c6e5-4247-ac79-12ec5b339079">
+      <active>true</active>
+      <description>PACK2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_PACK_2_L)" UUID="37014451-b704-427e-81fd-da64ec10c5a8" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 9" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2668a90a-7cd7-47a7-87e7-3d4172099dd7">
+      <active>true</active>
+      <description>START1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_START_U)" UUID="846723a2-7a11-4dd6-8aa2-68d3857e43ec" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 18" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="531cf72d-1d1e-40a5-9aee-8ed0d10596ec">
+      <active>true</active>
+      <description>START2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_START_L)" UUID="2660d45c-7fc9-467a-8919-feab3ea5d390" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 19" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="47dce6f7-8c66-4e4f-a7b6-74c3407fbce1">
+      <active>true</active>
+      <description>MASTERSW1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_MASTER_U)" UUID="3380ca44-06ad-4aa0-b9b6-7c0bcc539179" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 10" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="abda24cf-16f3-4658-91f2-445cc3453797">
+      <active>true</active>
+      <description>MASTERSW2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_MASTER_L)" UUID="42d9ba90-397f-4304-aae2-400d3fa763db" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 11" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="24536be0-de7d-42e8-9ca8-f7297f14d984">
+      <active>true</active>
+      <description>WING1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_WING_ANTI_ICE_U)" UUID="d3b247c5-3007-4cd2-b991-79badd7fed22" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 12" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4445fe9b-0f93-4c1d-9052-653cf580387a">
+      <active>true</active>
+      <description>WING2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_WING_ANTI_ICE_L)" UUID="dc011c6e-8783-4393-b726-2c2dffe4a7aa" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 13" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="364bbbf2-e797-46ec-aca8-a932fa2baf7f">
+      <active>true</active>
+      <description>ENG1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG1_ANTI_ICE_U)" UUID="da868a85-7bce-4e82-a743-5d99438077c5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 14" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a2aca06e-6f4f-4e8a-89e6-926c1cb91b44">
+      <active>true</active>
+      <description>ENG1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG1_ANTI_ICE_L)" UUID="8fa3596a-1700-4ab5-917c-d21219badc82" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 15" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="68489053-b8ab-4982-bdb0-dc8d13694b82">
+      <active>true</active>
+      <description>ENG2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG2_ANTI_ICE_U)" UUID="816c55b4-f1e2-491d-97cc-96a249a8fa9c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 8" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46a898b7-d725-441a-8d61-9e20c981c326">
+      <active>true</active>
+      <description>ENG2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_PNEUMATIC_ENG2_ANTI_ICE_L)" UUID="26b51a19-d631-4405-b687-4f66df7707cf" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 17" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b6a2e070-0c64-407a-9d9b-39ee2ec9e62f">
+      <active>true</active>
+      <description>PUMPS-L-TK-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_1_U)" UUID="a647ccbf-adb2-4bbe-9a7a-dc0bb9cbb1ad" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 14" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="07e94fa4-2ef0-4556-8d32-49769aadf760">
+      <active>true</active>
+      <description>PUMPS-L-TK-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_1_L)" UUID="3143b043-b6dd-4e48-b9ac-e1e5d1de866d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 15" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="77a67ce1-3be5-492f-bd9c-07816e2cd20d">
+      <active>true</active>
+      <description>PUMPS-L-TK-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_2_U)" UUID="38d9c867-fb87-43dc-80c1-9e9555103178" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 8" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="33a2fcd8-b01d-4af5-9fcf-ee66d9a2a6c6">
+      <active>true</active>
+      <description>PUMPS-L-TK-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_LEFT_2_L)" UUID="20ea8848-3c91-442c-a6d5-c5d7e323857d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 17" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e0dd6047-a20d-4199-986d-30901b6c4cb4">
+      <active>true</active>
+      <description>PUMPS-1-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_1_U)" UUID="a647ccbf-adb2-4bbe-9a7a-dc0bb9cbb1ad" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 18" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e496b099-dad4-4b70-9c34-1a34b3d1aeca">
+      <active>true</active>
+      <description>PUMPS-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_1_L)" UUID="bfdb3b5a-eba9-4ddd-86bd-bdfc8225af45" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 19" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="642befd6-e32d-435d-a90b-0b3abe3d8791">
+      <active>true</active>
+      <description>PUMPS-MODE-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_MODE_SEL_U)" UUID="b432e289-28bd-4a22-adee-96f6a9169285" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 20" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="13f7e807-c027-4a97-b667-3b5434af5819">
+      <active>true</active>
+      <description>PUMPS-MODE-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_MODE_SEL_L)" UUID="ccc4258c-1d44-4e20-a3fe-a47ae28fd2f1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 21" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2914d3bb-1d8e-4315-982d-77753297cbf3">
+      <active>true</active>
+      <description>PUMPS-2-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_2_U)" UUID="b9f90929-5e27-4d0e-ac9c-35134326c675" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 22" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="055189b4-f78d-4571-89ab-95e1d8e4da86">
+      <active>true</active>
+      <description>PUMPS-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_2_L)" UUID="ffe2fead-790a-4433-aee2-b796a276e8bf" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 23" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cb918125-c4c6-4f70-8cf7-5bccd3c25034">
+      <active>true</active>
+      <description>PUMPS-R-TK-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_1_U)" UUID="89186480-69bc-4127-bd09-6290730dd09a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 16" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3d9d6863-d4da-4b63-bfa8-36b86e8fed48">
+      <active>true</active>
+      <description>PUMPS-R-TK-1-2 </description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_1_L)" UUID="37bad9c1-8769-46b9-b92f-679ddf2282b5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 25" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5f11a32f-5b60-4dfb-935c-d117a3f745f8">
+      <active>true</active>
+      <description>PUMPS-R-TK-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_2_U)" UUID="04e9243b-7b85-455c-8a70-7274877acab3" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 26" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8c253036-1194-4997-ac19-0fc5faf0689a">
+      <active>true</active>
+      <description>PUMPS-R-TK-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_RIGHT_2_L)" UUID="62ca9240-7663-45d9-a380-35f3a1ef63b0" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 27" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8ab7e1ad-dfef-476e-a58e-d34ba58f6789">
+      <active>true</active>
+      <description>BAT1-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_BAT1_U)" UUID="be47ee3d-4100-4085-838d-be0362aae413" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 29" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a90e4c0a-ad90-496c-836a-b8dc0191cd0f">
+      <active>true</active>
+      <description>BAT1-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_BAT1_L)" UUID="d64730b4-4148-47ab-a810-655bba9c1524" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 28" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e0c35b9e-c4d4-479a-a85d-fb2ccdfb35a7">
+      <active>true</active>
+      <description>BAT1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_BAT2_U)" UUID="a95d241e-cfac-42ba-b1b9-705159086fc5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 31" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a3870816-0130-47f1-bc38-50a1e71f3978">
+      <active>true</active>
+      <description>BAT1-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_BAT2_L)" UUID="a93519c1-3af6-4098-8434-a5a8f3d1b2a9" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 30" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1e862314-d974-4aa1-aa7d-e0c392c39be6">
+      <active>true</active>
+      <description>EXTPWR1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_EXT_PWR_U)" UUID="2492c18e-ec7a-41de-a0fd-c4c153ec98fb" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 24" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0dde854e-2057-4b23-bda1-3a348b83c871">
+      <active>true</active>
+      <description>EXTPWR2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_EXT_PWR_L)" UUID="0fdd1453-7f4e-4c05-845e-70b83de69e4e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 1" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0ac31273-f263-4aa4-9ea8-953a14ddd4e4">
+      <active>true</active>
+      <description>ENG-FIRE-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FIRE_ENG1_BUTTON)" UUID="c7688092-99dc-4bda-96b2-c37727b5d155" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 2" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="389aaa0e-6f86-4669-a628-e1c9c1fa0bc2">
+      <active>true</active>
+      <description>AUP-FIRE-LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FIRE_APU_BUTTON)" UUID="20d6ba29-4a00-48c5-a6f5-907fc015b874" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 3" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5245e22c-08d3-4a41-b9b7-aa98c5ba3b63">
+      <active>true</active>
+      <description>ENG-FIRE-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FIRE_ENG2_BUTTON)" UUID="217585a1-1979-4beb-a981-f1f74f238760" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 4" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="68b48f1e-e661-4097-a5fc-89e3917cf692">
+      <active>true</active>
+      <description>BAT1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="LVAR" Value="" />
+        <test type="Float" value="123465" />
+        <modifiers>
+          <transformation active="True" expression="Round(#,1)" />
+        </modifiers>
+        <display type="Display Module" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="6" ledPadding="False" ledPaddingChar="0" ledDigits="3,4,5" ledDecimalPoints="4" />
+        <preconditions>
+          <precondition type="config" active="true" ref="6cdd3af7-f177-4b52-96b5-d0ba573ceeec" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="a90e4c0a-ad90-496c-836a-b8dc0191cd0f" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="a3870816-0130-47f1-bc38-50a1e71f3978" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="e5eb4cb3-8887-4f12-b443-594aeb8d43e2" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="65c67bee-a130-4da2-b92e-671fd7638679">
+      <active>true</active>
+      <description>BAT2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="LVAR" Value="" />
+        <test type="Float" value="123465" />
+        <modifiers>
+          <transformation active="True" expression="Round(#,1)" />
+        </modifiers>
+        <display type="Display Module" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="6" ledPadding="False" ledPaddingChar="0" ledDigits="0,1,2" ledDecimalPoints="1" />
+        <preconditions>
+          <precondition type="config" active="true" ref="6cdd3af7-f177-4b52-96b5-d0ba573ceeec" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="a90e4c0a-ad90-496c-836a-b8dc0191cd0f" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="a3870816-0130-47f1-bc38-50a1e71f3978" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="9d974d85-16ba-49d4-86dc-a0b58b8fe9e6" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="6cdd3af7-f177-4b52-96b5-d0ba573ceeec">
+      <active>false</active>
+      <description>EMER EXIT LT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_INT_LT_EMER_OFF)" UUID="12c3878e-bfaa-4279-b9cb-1118caa4b1d3" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-F26-40C" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 22" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e5eb4cb3-8887-4f12-b443-594aeb8d43e2">
+      <active>true</active>
+      <description>bat1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:N_ELEC_VOLT_BAT_1)" UUID="dd9ec28e-7c7f-4e0e-be75-89013f13351d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="-" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9d974d85-16ba-49d4-86dc-a0b58b8fe9e6">
+      <active>true</active>
+      <description>bat2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:N_ELEC_VOLT_BAT_2)" UUID="3b666fd0-42f6-4089-a203-87d7f1379e08" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="-" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="bfbe3d58-d6bf-435e-90a8-fe7e33ed8526">
+      <active>true</active>
+      <description>STROBE ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="bfc64c4c-784b-4976-82a8-4e3f807554e7" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="31574bf9-01f9-4542-8cb2-b16354d19b49" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f4ffcc94-0a62-4f91-9462-b02103753713">
+      <active>true</active>
+      <description>STROBE AUTO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="4ea54556-bb64-47d8-9b51-1884d7cd4783" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_STROBE)" presetId="31574bf9-01f9-4542-8cb2-b16354d19b49" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="55c667a2-fbea-4f98-9fa8-ea8dc8c41dcb">
+      <active>true</active>
+      <description>ONSMOKING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="81d9a384-bc1a-4375-9024-28b1446da2fa" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="9f9f4c3b-ff12-4ab4-9ad5-5326216d0245" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="746cbc9f-1339-40c5-bae2-2ddcea31a770">
+      <active>true</active>
+      <description>BEACON ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_BEACON)" presetId="4c259695-d621-4f01-88b0-7fdafae54887" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_BEACON)" presetId="f4796173-875c-494b-b9d1-9effe46ac7f6" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="65578d46-41ed-40eb-a5a8-26a51435f2fe">
+      <active>true</active>
+      <description>LAND-L-ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="a32bd321-3d40-4fda-a6a4-7a747469fd47" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="279bd737-b267-47a5-89f6-45ff4ab829d9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f2551075-1ae7-431b-a18f-67853b2b3766">
+      <active>true</active>
+      <description>WING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_WING)" presetId="62f0eac1-f0f8-40db-a335-d77c8a532c49" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_WING)" presetId="2d9b3720-c32d-437e-a782-3038827bdeba" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c6b524a3-0401-4dfb-b31d-93765504d5f5">
+      <active>true</active>
+      <description>NAV&amp;LOGO ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="93fe44ff-2a36-4845-8d3f-234505161bbf" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="0eaa2b40-027f-438f-88b8-57d5d22dc2c3" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="92ec0c2b-2faa-46f1-a409-a70e50fcdf0b">
+      <active>true</active>
+      <description>NAV&amp;LOGO AUTO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="790ae7a4-c0d5-4f82-ae86-f3d99efbd89e" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NAV_LOGO)" presetId="0eaa2b40-027f-438f-88b8-57d5d22dc2c3" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="691f6e43-977c-40da-a087-ac9e2822b07b">
+      <active>true</active>
+      <description>ICE ENG2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_PNEUMATIC_ENG2_ANTI_ICE) ! (&gt;L:S_OH_PNEUMATIC_ENG2_ANTI_ICE) " presetId="250f1abb-2435-45a0-905b-1d269e671538" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bb40f201-49b3-455a-a8ac-e52e96beb986">
+      <active>true</active>
+      <description>ICE ENG1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_PNEUMATIC_ENG1_ANTI_ICE) ! (&gt;L:S_OH_PNEUMATIC_ENG1_ANTI_ICE) " presetId="37d789d0-a5b9-414a-96bd-e4236fe92ffc" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ccc34e84-458c-48d6-a94e-7d4ee388dacf">
+      <active>true</active>
+      <description>ICE WING</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_PNEUMATIC_WING_ANTI_ICE) ! (&gt;L:S_OH_PNEUMATIC_WING_ANTI_ICE) " presetId="8880878b-d7f5-4bf7-9007-789140af5e25" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cd2d7652-8b26-4952-8e67-3ace95f4c2a6">
+      <active>true</active>
+      <description>PACK2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_PNEUMATIC_PACK_2) ! (&gt;L:S_OH_PNEUMATIC_PACK_2)" presetId="cd3fe5d0-6a22-45ed-b05a-e2dcb1f1017e" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="122414c1-228c-448e-b9f3-a5cec76646ff">
+      <active>true</active>
+      <description>PACK1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_PNEUMATIC_PACK_1) ! (&gt;L:S_OH_PNEUMATIC_PACK_1) " presetId="e12ba779-fb66-4c63-be76-de0968f44a2a" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="73b7b3bf-c583-4979-8dd7-be8f4afa2291">
+      <active>true</active>
+      <description>RWY TURN OFF ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_RWY_TURNOFF)" presetId="941cf706-1d15-49b7-a07f-89ce8851ebc3" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_RWY_TURNOFF)" presetId="a5f393b9-28e7-477b-862f-44a96e4c78e5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2abc35c2-e845-426c-8ba4-422034d3d03a">
+      <active>true</active>
+      <description>LAND-L-OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="cb777bee-ece3-44bd-809c-6b31deb95507" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_L)" presetId="279bd737-b267-47a5-89f6-45ff4ab829d9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="815b89de-dd70-498b-b9b2-121161de0a18">
+      <active>true</active>
+      <description>LAND-R-ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="6c6cf33b-f101-4cf7-a2c5-86273d81b452" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="d73294a9-600c-4356-91cb-749159820a9b" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bb8b5789-4e4b-42a4-a58d-cb03c3eb65d7">
+      <active>true</active>
+      <description>LAND-R-OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="b805ce16-fddd-4ed8-b79d-f637492d55b8" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_LANDING_R)" presetId="d73294a9-600c-4356-91cb-749159820a9b" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="53cf174a-69e5-4c07-bbd1-a03c2eaa39bd">
+      <active>true</active>
+      <description>FIRE-APU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FIRE_APU_BUTTON)" presetId="99ca0b63-472a-4d79-8d46-4005fdb95f98" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FIRE_APU_BUTTON)" presetId="99ca0b63-472a-4d79-8d46-4005fdb95f98" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c95392a2-9970-43c0-ab45-69c538ca3f2e">
+      <active>true</active>
+      <description>FIRE-ENG2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FIRE_ENG2_BUTTON) " presetId="4c17ba09-a9d4-4693-9818-fcb06b4003db" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FIRE_ENG2_BUTTON) " presetId="4c17ba09-a9d4-4693-9818-fcb06b4003db" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="377c9185-ebf0-454b-8cbb-90e0ef2c5883">
+      <active>true</active>
+      <description>NOSE TO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="a61f63e6-72ea-441e-aef3-e37e0eeba284" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="f6544070-23c5-43f0-bd78-e47fdb09fb11" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e6a15bf4-a83c-4aa9-9840-c1e1a63c8881">
+      <active>true</active>
+      <description>START</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_ELEC_APU_START) 2 +  (&gt;L:S_OH_ELEC_APU_START)" presetId="a2437583-0aa0-4e17-9fab-aa85944c2f12" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1650bb7f-c946-4f49-b491-49abba2d0480">
+      <active>true</active>
+      <description>NOSE OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="23b4c2f1-08b2-4daf-8f18-9e10941aeeaa" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_EXT_LT_NOSE)" presetId="f6544070-23c5-43f0-bd78-e47fdb09fb11" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d03e608b-6684-4eff-bb23-3d713333a445">
+      <active>true</active>
+      <description>SEATBELTS ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_SIGNS)" presetId="d0d6a561-ac95-48a5-ab85-76f2350f46e0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_SIGNS)" presetId="a0d0cbcf-752a-4182-9cd5-75c4c3633890" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e7d60d94-4eaa-4f8f-8d7b-60dd341318fa">
+      <active>true</active>
+      <description>ADIRS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_ADIRS_KEY_ENT) ++ (&gt;L:S_OH_ADIRS_KEY_ENT)" presetId="abe1cd92-e617-4ad3-ac87-bf7d17477a59" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_ADIRS_KEY_ENT) ++ (&gt;L:S_OH_ADIRS_KEY_ENT)" presetId="a2c1517a-a7db-4b05-8f13-2e6cda9262aa" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9e508b67-eba6-4769-b765-acc2514e0fd6">
+      <active>true</active>
+      <description>ONSMOKING OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="81d9a384-bc1a-4375-9024-28b1446da2fa" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="9f9f4c3b-ff12-4ab4-9ad5-5326216d0245" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="de29e6ac-d780-4d3b-9289-6f9d6b0244f9">
+      <active>true</active>
+      <description>ONSMOKING AUOT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="2a71197c-a1fd-43bf-abcf-1339d910bb4c" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_SIGNS_SMOKING)" presetId="9f9f4c3b-ff12-4ab4-9ad5-5326216d0245" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="136799d1-208d-45e5-84d5-1f21f738be31">
+      <active>true</active>
+      <description>APUBLEED</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_PNEUMATIC_APU_BLEED) " presetId="a02c3d0c-7d4d-4d1d-a6a5-2ca8023182b2" />
+          <onHold holdDelay="350" repeatDelay="0" type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_APU_BLEED)" presetId="be50aed4-9d99-46d7-ba44-68bf0815aefb" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a512ff8f-efaf-4c35-987f-a291d226b3c9">
+      <active>true</active>
+      <description>MASTERSW</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_ELEC_APU_MASTER) ! (&gt;L:S_OH_ELEC_APU_MASTER)" presetId="555fadb9-8466-4995-bef8-4587dc16bb7b" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a826db89-c482-43b2-a7e8-4f443f57200b">
+      <active>true</active>
+      <description>CALLS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_CALLS_ALL) ++ (&gt;L:S_OH_CALLS_ALL)" presetId="f6ea7bd3-0777-406c-bbb1-1625919607a6" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_CALLS_ALL) ++ (&gt;L:S_OH_CALLS_ALL)" presetId="f6ea7bd3-0777-406c-bbb1-1625919607a6" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46801c52-3fb2-4428-be0d-a4d30f866319">
+      <active>true</active>
+      <description>ADIRS-1-1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_NAV_IR1_MODE)" presetId="c318f767-40b3-48e4-b642-17b7dadc7784" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_NAV_IR1_MODE)" presetId="5b1fdde0-6712-4e0d-8777-a323411c7805" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ce535892-6129-47f6-baea-9b9e8ab877a0">
+      <active>true</active>
+      <description>ADIRS-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_NAV_IR2_MODE)" presetId="76f42b03-7758-48c8-b254-ac3421f98b09" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_NAV_IR2_MODE)" presetId="916a50fa-7f54-4cf3-b7e7-99deab98a1ab" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fb39ca8c-4213-4342-b053-4c5fcccbf178">
+      <active>true</active>
+      <description>GNDCTL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_RCRD_GND_CTL) ++ (&gt;L:S_OH_RCRD_GND_CTL)" presetId="333fc2a6-7451-43df-883b-54cabd28078c" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_RCRD_GND_CTL) ++ (&gt;L:S_OH_RCRD_GND_CTL)" presetId="bb677078-a26f-49c9-ba48-3dc247ca9b98" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="843c6fd9-ce59-4898-a0ec-3fe2085ff036">
+      <active>true</active>
+      <description>CREWSUPPLY</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_OXYGEN_CREW_OXYGEN) ! (&gt;L:S_OH_OXYGEN_CREW_OXYGEN)" presetId="a38eee62-a73e-42f9-9ca8-3d2c7e3df8fe" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1db333c1-beb6-4292-a348-2be8234d41bc">
+      <active>true</active>
+      <description>ADIRS-1-3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_NAV_IR3_MODE)" presetId="28455db7-4e3c-464c-8b31-be447c85b4ec" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_NAV_IR3_MODE)" presetId="c098dc60-4fb6-44be-bc91-4369f4100dbd" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5b9bc6b7-c75e-4ca3-a045-4355c3914002">
+      <active>true</active>
+      <description>ADIRS-2-1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_NAV_IR1_MODE)" presetId="f0c19f77-dd59-4ca1-adee-cf941576d9d6" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_NAV_IR1_MODE)" presetId="5b1fdde0-6712-4e0d-8777-a323411c7805" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="967efb4f-7725-44c3-b400-e217d96b7c38">
+      <active>true</active>
+      <description>ADIRS-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_NAV_IR2_MODE)" presetId="4b3374e3-1c6a-4c5a-963c-da63b422a1df" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_NAV_IR2_MODE)" presetId="916a50fa-7f54-4cf3-b7e7-99deab98a1ab" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46decb33-ed2d-4c8b-a9b2-aa39061d7dfd">
+      <active>true</active>
+      <description>ADIRS-2-3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_NAV_IR3_MODE)" presetId="961b18a2-8935-40d3-b0e3-0cc088bfb7a4" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_NAV_IR3_MODE)" presetId="c098dc60-4fb6-44be-bc91-4369f4100dbd" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="43756dd9-695e-438e-9d55-a9894374d14c">
+      <active>true</active>
+      <description>PUMPS-1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_CENTER_1) ! (&gt;L:S_OH_FUEL_CENTER_1)&#xA;" presetId="edce2430-d69d-47d6-9ce5-d1cdb0c872b7" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1cd2a307-55b1-49d5-a65e-c04091fce408">
+      <active>true</active>
+      <description>PUMPS-2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_CENTER_2) ! (&gt;L:S_OH_FUEL_CENTER_2) &#xA;" presetId="a2ee4bfd-ab5f-4bd0-b369-afd85dc56bdd" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3baf0f30-0595-40a6-991a-f883dc1b40f1">
+      <active>true</active>
+      <description>PUMPS -L1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_LEFT_1) ! (&gt;L:S_OH_FUEL_LEFT_1) " presetId="a4e8e9d8-71e2-4670-8d01-f3fe9f59eb65" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dda58d4c-19b8-45d4-b327-ca48e9233506">
+      <active>true</active>
+      <description>PUMPS-MODESEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_MODE_SEL) ! (&gt;L:S_OH_FUEL_MODE_SEL)" presetId="384180e2-cce3-454e-befd-e115209aae9c" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9187d4f1-72ea-4d7e-b415-1e219a5cf6d3">
+      <active>true</active>
+      <description>PUMPS -L2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_LEFT_2) ! (&gt;L:S_OH_FUEL_LEFT_2)" presetId="e1a21b5a-e462-49c6-a9fd-a631af0be99d" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b58a4996-c570-4a6b-8386-27310d24e654">
+      <active>true</active>
+      <description>PUMPS-R1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_RIGHT_1) ! (&gt;L:S_OH_FUEL_RIGHT_1)&#xA;" presetId="f3946fdb-1f1e-4429-986b-5b3b0ec662de" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a2a39e29-a748-4b27-80ad-5d10fcb1551d">
+      <active>true</active>
+      <description>PUMPS-R2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_RIGHT_2) ! (&gt;L:S_OH_FUEL_RIGHT_2) &#xA;" presetId="bc113f9a-6255-4407-a34c-0087f9831012" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e8c72ed1-c2c5-440a-8ea8-fcb284bc356a">
+      <active>true</active>
+      <description>BAT1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_ELEC_BAT1)" presetId="01e8b582-4ffc-401a-b507-0dbd109e4cf3" />
+          <onHold holdDelay="350" repeatDelay="0" type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_ELEC_BAT1)" presetId="a126e52e-9c25-4f40-b44e-4bfd47bc0c55" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="391b2f11-27c1-43e5-8056-4d2ec01ac260">
+      <active>true</active>
+      <description>BAT2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_ELEC_BAT2)" presetId="bc001fc6-0302-46c4-a476-043a22261458" />
+          <onHold holdDelay="350" repeatDelay="0" type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_ELEC_BAT2)" presetId="2a981404-bd70-4ab9-ac54-8aa9b67befc9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="582efdff-dab0-4675-9240-d181112562ce">
+      <active>true</active>
+      <description>APUGEN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_ELEC_APU_GENERATOR) ! (&gt;L:S_OH_ELEC_APU_GENERATOR) " presetId="20e11e80-d2ea-414b-a5ab-4c66049b2b68" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09fd233d-d68c-4dfe-be2f-b8ab8bd3941f">
+      <active>true</active>
+      <description>IR2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_NAV_IR3_SWITCH) 2 + (&gt;L:S_OH_NAV_IR3_SWITCH)" presetId="3b166f24-2542-489c-baa7-03a6b8d67ed5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="704aad19-5aef-4526-8a77-92025e435726">
+      <active>true</active>
+      <description>IR3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_NAV_IR2_SWITCH) 2 + (&gt;L:S_OH_NAV_IR2_SWITCH)" presetId="ab63ed1a-7895-4c15-9e72-2ba71017d63d" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c4b642ec-f8bf-4237-9065-efaf567b90c6">
+      <active>true</active>
+      <description>IR1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_NAV_IR1_SWITCH) 2 + (&gt;L:S_OH_NAV_IR1_SWITCH)" presetId="2e6ec878-8f60-42c7-9185-f337401c3e3d" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c95e56d2-4206-470c-aa16-9d385d01ed80">
+      <active>true</active>
+      <description>EXTPWR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_ELEC_EXT_PWR) ++ (&gt;L:S_OH_ELEC_EXT_PWR)" presetId="1a14af76-1444-424f-aec9-8a12cf049c2b" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_ELEC_EXT_PWR) s0 2 % 0 != if{ l0 ++ (&gt;L:S_OH_ELEC_EXT_PWR) }" presetId="49408969-319d-451b-84c8-04981ea6a5dc" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c9db464b-e501-4fb2-a898-982e47a9368c">
+      <active>true</active>
+      <description>TA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_XPDR_MODE)" presetId="2f79231b-5771-4047-8a7a-167e3cfce25b" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_XPDR_MODE)" presetId="8720ed44-55c8-4db6-99e9-27ad22b62113" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a469a5bd-7669-4235-ab67-8f138e466a65">
+      <active>true</active>
+      <description>TA/TR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_XPDR_MODE)" presetId="331e88bc-ebb6-4bef-a14c-ea826be7b518" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_XPDR_MODE)" presetId="8720ed44-55c8-4db6-99e9-27ad22b62113" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5bdc4b89-75dc-4012-a96d-8b5713d303c1">
+      <active>true</active>
+      <description>EXIT ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_OH_INT_LT_EMER)" presetId="ae2136de-7f5d-4c05-9936-930287dc6df0" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_INT_LT_EMER)" presetId="2a1d5443-e7eb-4803-9675-e9d825b9867a" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0e99ede5-1736-4577-8958-5cd87d49e18c">
+      <active>true</active>
+      <description>EXIT OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_INT_LT_EMER)" presetId="0972503d-67b7-49fe-8f71-7d0a5fc8a51f" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_INT_LT_EMER)" presetId="2a1d5443-e7eb-4803-9675-e9d825b9867a" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0285aaba-b7b4-457f-b546-38277881aff4">
+      <active>true</active>
+      <description>TEST1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FIRE_ENG1_TEST)" presetId="7fec627d-9eaf-4b61-a1f9-35d85e4d0578" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FIRE_ENG1_TEST)" presetId="adb3edf5-b05c-4763-b9a1-779da1ce6369" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="42c5335e-43b2-4f7e-9486-573081973a20">
+      <active>true</active>
+      <description>TEST-APU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FIRE_APU_TEST)" presetId="55c940f0-f87d-422f-954c-e4b81f4fdb55" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FIRE_APU_TEST)" presetId="bdfe9411-727e-429c-b32c-776d35e87f16" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="23e6108d-4bee-49bb-be11-914c80eb665b">
+      <active>true</active>
+      <description>TEST2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FIRE_ENG2_TEST)" presetId="3482ff7a-e1a3-4621-b330-852ac3647b30" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FIRE_ENG2_TEST)" presetId="8d1793c4-5b02-413c-b224-92effd471879" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f7972af3-e71b-4700-adeb-32928765773f">
+      <active>true</active>
+      <description>WIPER-OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_MISC_WIPER_CAPT)" presetId="2ac804a6-1885-4a3c-8721-260c7882e15a" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MISC_WIPER_CAPT)" presetId="ca9da7f1-5480-4b72-952e-7c541efc9e24" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b2c93d39-3cde-433b-821f-e27a58b69a05">
+      <active>true</active>
+      <description>LDGFLAP3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_GPWS_LDG_FLAP3) ! (&gt;L:S_OH_GPWS_LDG_FLAP3) " presetId="29eae598-a9f2-4875-9068-eb5bb45ff153" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fa9cfbd1-41c6-4922-8f29-c34521ad063d">
+      <active>true</active>
+      <description>WIPER-FAST</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:S_MISC_WIPER_CAPT)" presetId="57babb8e-b4a7-471d-a4a2-51e7777674b4" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_MISC_WIPER_CAPT)" presetId="ca9da7f1-5480-4b72-952e-7c541efc9e24" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="667186f0-3493-4767-8ef0-0e42668c6caa">
+      <active>true</active>
+      <description>FIRE-ENG1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_FIRE_ENG1_BUTTON) " presetId="9d8b7ae4-e544-4d00-a18e-b9b0b92b07aa" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:S_OH_FIRE_ENG1_BUTTON) " presetId="9d8b7ae4-e544-4d00-a18e-b9b0b92b07aa" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b08f0446-6441-4642-8b43-8bf361926449">
+      <active>false</active>
+      <description>OVHD INTEG LT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-F26-40C" name="Analog Input" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="MSFS2020CustomInputAction" command="@ 18 - -242 / 1 + 0 max 1 min index (&gt;L:A_OH_LIGHTING_OVD)&#xA;" presetId="c0b18092-7987-4946-9dea-5e9784b30f5a" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
