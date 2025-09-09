@@ -1,0 +1,1439 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="a24b9a0e-7f77-4bcd-aad5-09f45efc750a">
+      <active>true</active>
+      <description>ADIES</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_ON_BAT_IS_ILLUMINATED)" UUID="2cb89643-712c-4c3d-ab42-cdb6a8ee79f0" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 1" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="531cf72d-1d1e-40a5-9aee-8ed0d10596ec">
+      <active>true</active>
+      <description>START2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_APU_START_PB_IS_ON)" UUID="b685038c-07a1-4484-ad6d-03b8e3caf3b7" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 19" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="62fa21f5-e324-4fca-9b75-bbd8712b6bf4">
+      <active>true</active>
+      <description>IR1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_IR_1_PB_HAS_FAULT)" UUID="213a2852-585d-4513-b9e4-72bf0dc04d80" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 0" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="44da83a7-b272-4659-87b4-6788b25bbd34">
+      <active>true</active>
+      <description>IR1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_IR_1_PB_IS_ON)" UUID="ea0846fc-1111-47c2-a566-a5f9fd596119" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="1" operand="=" ifValue="0" elseValue="1" />
+        </modifiers>
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 9" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9bc61a4c-def6-400c-81d2-c30d96f8ddd6">
+      <active>true</active>
+      <description>IR3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_IR_3_PB_HAS_FAULT)" UUID="7d8d5852-18ec-4172-bfa4-71bae260562c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 10" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7fb13a06-4c4d-4405-ab7d-b922415af80c">
+      <active>true</active>
+      <description>IR3-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_IR_3_PB_IS_ON)" UUID="5fc8bffd-99dd-4373-95bb-ff7c1deea7e5" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="1" operand="=" ifValue="0" elseValue="1" />
+        </modifiers>
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 11" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d9a76db3-55c1-4cf4-8cec-c3e62d8f3833">
+      <active>true</active>
+      <description>IR2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_IR_2_PB_HAS_FAULT)" UUID="bd71fc3f-de91-4f22-9283-7884ceac1ef5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 12" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="655e5210-7570-4a76-b7a6-af4511e4deab">
+      <active>true</active>
+      <description>IR2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ADIRS_IR_2_PB_IS_ON)" UUID="f4725f63-e388-4d91-865c-39edabb97f17" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="1" operand="=" ifValue="0" elseValue="1" />
+        </modifiers>
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 13" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="98135756-613e-4a36-847f-0ba6bf1e5f2b">
+      <active>true</active>
+      <description>LDG FLAP3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_GPWS_FLAPS3)" UUID="f5e91246-f031-48e1-96eb-36a78b1bbbc5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 5" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="409f344c-9ebd-4da5-b6e5-edfd171f2e8b">
+      <active>true</active>
+      <description>GND CTL</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_RCDR_GROUND_CONTROL_ON, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_1_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="decaba10-395d-4210-98c2-121480b3bd2a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 6" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="53848eac-8669-4524-84f4-c3bc505104cd">
+      <active>true</active>
+      <description>CREW SUPPLY</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:PUSH_OVHD_OXYGEN_CREW, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="25e896b9-4583-4935-89d8-6d81dd8c99a5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 7" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2cd4ff0a-d55e-4e74-b930-f975d1b6e78b">
+      <active>true</active>
+      <description>APUGEN1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_ELEC_APU_GENERATOR_U)" UUID="fcd7622b-450c-419d-a484-b6bce1788d31" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 2" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a0ef1703-a5b8-435f-933a-6f86b8e02e78">
+      <active>true</active>
+      <description>APUGEN2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:APU GENERATOR SWITCH:1, Bool) !" UUID="f762d3ab-ca50-404f-9905-018a143c9c54" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 3" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c7840008-9785-4a16-bc93-b93372354fef">
+      <active>true</active>
+      <description>PACK1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_COND_PACK_1_PB_HAS_FAULT)" UUID="9bad6f9e-96ea-4fad-b827-dede03aeb059" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 4" />
+        <preconditions>
+          <precondition type="config" active="false" ref="0dde854e-2057-4b23-bda1-3a348b83c871" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2b846f55-8cf6-4b3d-9385-b59a3e9be2d3">
+      <active>true</active>
+      <description>PACK1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_COND_PACK_1_PB_IS_ON, bool) !" UUID="a1bfaf19-49a1-446a-814a-df2535f3a499" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 5" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4d10c12b-e426-4ea2-a3af-4ae0452278cb">
+      <active>true</active>
+      <description>APUBLEED1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="f8b15932-9b0e-45b8-b033-dc0597b1508c" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 6" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1f3f2f02-238f-41b6-9169-a9dd3c78eb91">
+      <active>true</active>
+      <description>APUBLEED2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 ==  (L:A32NX_ELEC_DC_2_BUS_IS_POWERED, Bool) and or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="95d0ec38-7671-4f6f-ae83-80cde5e5c807" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 7" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="27827ef8-965a-4fcf-ac80-cfb27fbc9c9a">
+      <active>true</active>
+      <description>PACK2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_COND_PACK_2_PB_HAS_FAULT)" UUID="b673c41f-7cc5-4968-9271-6757f1122632" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 0" />
+        <preconditions>
+          <precondition type="config" active="false" ref="0dde854e-2057-4b23-bda1-3a348b83c871" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f36ecd4b-c6e5-4247-ac79-12ec5b339079">
+      <active>true</active>
+      <description>PACK2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_COND_PACK_2_PB_IS_ON, bool) !" UUID="10a2056c-d5e9-493d-ab3e-0e926f8dc6eb" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 9" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2668a90a-7cd7-47a7-87e7-3d4172099dd7">
+      <active>true</active>
+      <description>START1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_APU_START_PB_IS_AVAILABLE, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) (L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED, Bool) or and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="2beeccb3-6515-4c93-9928-7332a5f1170e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 18" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="47dce6f7-8c66-4e4f-a7b6-74c3407fbce1">
+      <active>true</active>
+      <description>MASTERSW1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_APU_MASTER_SW_PB_HAS_FAULT, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) (L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED, Bool) or and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="3704dec9-e29f-4e58-a540-bb2bdc5fd7f5" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 10" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="abda24cf-16f3-4658-91f2-445cc3453797">
+      <active>true</active>
+      <description>MASTERSW2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_APU_MASTER_SW_PB_IS_ON, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) (L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED, Bool) or and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="1844b80b-faa6-4464-8908-1244d2cb9d7b" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 11" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="24536be0-de7d-42e8-9ca8-f7297f14d984">
+      <active>true</active>
+      <description>WING1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and ((L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="5c9457fb-1d58-418b-afe2-332e3d03a0bf" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 12" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4445fe9b-0f93-4c1d-9052-653cf580387a">
+      <active>true</active>
+      <description>WING2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:STRUCTURAL DEICE SWITCH, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="930ad9db-7be9-4a74-b51d-ef6e27a14e76" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 13" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="364bbbf2-e797-46ec-aca8-a932fa2baf7f">
+      <active>true</active>
+      <description>ENG1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and (L:A32NX_ELEC_AC_1_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="c55ea4a6-c670-4a83-b47e-086ef4a8c6a1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 14" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a2aca06e-6f4f-4e8a-89e6-926c1cb91b44">
+      <active>true</active>
+      <description>ENG1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:ENG ANTI ICE:1, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_1_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="658fd326-1f2c-4fea-93a1-fc2b1064ec18" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 15" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="68489053-b8ab-4982-bdb0-dc8d13694b82">
+      <active>true</active>
+      <description>ENG2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="42839db1-05ac-49f2-905a-2c61a4cf81f0" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 8" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46a898b7-d725-441a-8d61-9e20c981c326">
+      <active>true</active>
+      <description>ENG2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:ENG ANTI ICE:2, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_1_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="bb66dd94-70b9-4427-b5e4-d08a27c673b1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 17" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b6a2e070-0c64-407a-9d9b-39ee2ec9e62f">
+      <active>true</active>
+      <description>PUMPS-L-TK-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="a7ec8def-8398-4104-a61d-08a5bf4ebf2d" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 14" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="07e94fa4-2ef0-4556-8d32-49769aadf760">
+      <active>true</active>
+      <description>PUMPS-L-TK-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM PUMP SWITCH:2, Enum) 0 == (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="4f215d3d-87e8-4204-905d-44e044f2e57a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 15" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="77a67ce1-3be5-492f-bd9c-07816e2cd20d">
+      <active>true</active>
+      <description>PUMPS-L-TK-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * 0 &gt; (A:CIRCUIT GENERAL PANEL ON, Bool) and" UUID="c38dc427-be45-42b8-85b7-0a26f337b709" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 8" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="33a2fcd8-b01d-4af5-9fcf-ee66d9a2a6c6">
+      <active>true</active>
+      <description>PUMPS-L-TK-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM PUMP SWITCH:5, Enum) 0 == (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * " UUID="f5a94739-a0a4-44ce-98e9-3479d77060dc" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 17" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e0dd6047-a20d-4199-986d-30901b6c4cb4">
+      <active>true</active>
+      <description>PUMPS-1-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_1_U)" UUID="a647ccbf-adb2-4bbe-9a7a-dc0bb9cbb1ad" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 18" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e496b099-dad4-4b70-9c34-1a34b3d1aeca">
+      <active>true</active>
+      <description>PUMPS-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM VALVE SWITCH:9, Enum) 0 == (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * " UUID="e8575ac7-499c-4571-bfb3-64eba7952316" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 19" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="642befd6-e32d-435d-a90b-0b3abe3d8791">
+      <active>true</active>
+      <description>PUMPS-MODE-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM TANK WEIGHT:1, pound) 550 &gt; &#xA;(A:FUELSYSTEM TANK WEIGHT:2, pound) 11000 &lt; &#xA;(A:FUELSYSTEM TANK WEIGHT:3, pound) 11000 &lt; or and &#xA;(L:A32NX_OVHD_INTLT_ANN) 0 == (L:A32NX_ELEC_DC_2_BUS_IS_POWERED, Bool) and or &#xA;(L:A32NX_ELEC_AC_1_BUS_IS_POWERED, Bool) and &#xA;(L:A32NX_OVHD_INTLT_ANN, Number) 2 == if{ 0.1 } els{ 1 } *" UUID="692b286d-b010-44fc-9417-451b3ddf46d3" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 20" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="13f7e807-c027-4a97-b667-3b5434af5819">
+      <active>true</active>
+      <description>PUMPS-MODE-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_FUEL_MODESEL_MANUAL) (L:A32NX_OVHD_INTLT_ANN) 0 == (L:A32NX_ELEC_DC_2_BUS_IS_POWERED, Bool) and or (L:A32NX_OVHD_INTLT_ANN, Number) 2 == if{ 0.1 } els{ 1 } *  " UUID="5a747c50-791d-423f-9742-a0ce5212e22f" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 21" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2914d3bb-1d8e-4315-982d-77753297cbf3">
+      <active>true</active>
+      <description>PUMPS-2-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FUEL_CENTER_2_U)" UUID="b9f90929-5e27-4d0e-ac9c-35134326c675" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 22" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="055189b4-f78d-4571-89ab-95e1d8e4da86">
+      <active>true</active>
+      <description>PUMPS-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM VALVE SWITCH:10, Enum) 0 == (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * " UUID="45f550a0-121d-4468-a665-de30dfc3359f" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 23" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cb918125-c4c6-4f70-8cf7-5bccd3c25034">
+      <active>true</active>
+      <description>PUMPS-R-TK-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="2618ffbb-4a4f-431d-91da-a24eca15441f" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 16" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0dde854e-2057-4b23-bda1-3a348b83c871">
+      <active>true</active>
+      <description>EXTPWR2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_EXT_PWR_AVAIL:1, Bool) (L:A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON,Bool) and&#xA;(L:A32NX_OVHD_INTLT_ANN) 0 == (L:A32NX_ELEC_DC_2_BUS_IS_POWERED,Bool) and or &#xA;(L:A32NX_ELEC_AC_1_BUS_IS_POWERED,Bool) and &#xA;(L:A32NX_OVHD_INTLT_ANN,Number) 2 == if{ 0.1 } els{ 1 } * " UUID="f85ffab7-0a49-427e-8227-a3a3cdad9a89" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 1" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3d9d6863-d4da-4b63-bfa8-36b86e8fed48">
+      <active>true</active>
+      <description>PUMPS-R-TK-1-2 </description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM PUMP SWITCH:3, Enum) 0 == (L:A32NX_OVHD_INTLT_ANN) 0 == or 1 and (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * " UUID="521d01a8-5924-46ae-b138-9ba18e211c8b" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 25" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="389aaa0e-6f86-4669-a628-e1c9c1fa0bc2">
+      <active>true</active>
+      <description>AUP-FIRE-LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_FIRE_APU_BUTTON)" UUID="20d6ba29-4a00-48c5-a6f5-907fc015b874" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 3" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5f11a32f-5b60-4dfb-935c-d117a3f745f8">
+      <active>true</active>
+      <description>PUMPS-R-TK-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_INTLT_ANN) 0 == 1 and (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="c67afcc3-b801-4504-9011-e26a69a30317" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 26" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8c253036-1194-4997-ac19-0fc5faf0689a">
+      <active>true</active>
+      <description>PUMPS-R-TK-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FUELSYSTEM PUMP SWITCH:6, Enum) 0 == (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_AC_2_BUS_IS_POWERED, Bool) and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * " UUID="09233e60-afba-499d-950d-7f322633dd4a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 27" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8ab7e1ad-dfef-476e-a58e-d34ba58f6789">
+      <active>true</active>
+      <description>BAT1-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ELEC_BAT_1_PB_HAS_FAULT, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, Bool) (L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED, Bool) or and 1 and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * 0 &gt; (A:CIRCUIT GENERAL PANEL ON, Bool) and" UUID="7c09cb56-a0f1-4621-871c-65e708c2e2c1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 29" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a90e4c0a-ad90-496c-836a-b8dc0191cd0f">
+      <active>true</active>
+      <description>BAT1-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO, Bool) ! (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_DC_BAT_BUS_IS_POWERED, Bool) and 1 and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="c23bb5cd-c1d6-4709-9071-4ee07cf80abe" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 28" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e0c35b9e-c4d4-479a-a85d-fb2ccdfb35a7">
+      <active>true</active>
+      <description>BAT1-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ELEC_BAT_2_PB_HAS_FAULT, Bool) (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_DC_BAT_BUS_IS_POWERED, Bool) (L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED, Bool) or and 1 and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="4565760c-d774-43f8-8157-5c3837ade495" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 31" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a3870816-0130-47f1-bc38-50a1e71f3978">
+      <active>true</active>
+      <description>BAT1-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO, Bool) ! (L:A32NX_OVHD_INTLT_ANN) 0 == or (L:A32NX_ELEC_DC_BAT_BUS_IS_POWERED, Bool) and 1 and (L:A32NX_OVHD_INTLT_ANN, number) 2 == if{ 0.1 } els{ 1 } * (A:CIRCUIT GENERAL PANEL ON, Bool) *" UUID="c54959f5-a16b-411c-aa42-befa35b0f69a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 30" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1e862314-d974-4aa1-aa7d-e0c392c39be6">
+      <active>true</active>
+      <description>EXTPWR1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_EXT_PWR_AVAIL:1, Bool) (L:A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON,Bool) ! and&#xA;(L:A32NX_OVHD_INTLT_ANN) 0 == (L:A32NX_ELEC_DC_2_BUS_IS_POWERED,Bool) and or &#xA;(L:A32NX_OVHD_INTLT_ANN,Number) 2 == if{ 0.1 } els{ 1 } * " UUID="1cb53187-0a3a-4fcc-81a4-7b933a62aab2" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 24" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0ac31273-f263-4aa4-9ea8-953a14ddd4e4">
+      <active>true</active>
+      <description>ENG-FIRE-1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_FIRE_TEST_ENG1,bool) (A:ENG ON FIRE:1, bool) or (L:A32NX_OVHD_INTLT_ANN) 0 == or &#xA;(L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED,bool) &#xA;(L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED,bool) or &#xA;(L:A32NX_ELEC_AC_2_BUS_IS_POWERED,bool) or and " UUID="411b3e8d-4bc3-4d74-a883-2985afed7856" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 2" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5245e22c-08d3-4a41-b9b7-aa98c5ba3b63">
+      <active>true</active>
+      <description>ENG-FIRE-2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_FIRE_TEST_ENG2, bool) (A:ENG ON FIRE:2,  bool) or (L:A32NX_OVHD_INTLT_ANN) 0 == or &#xA;(L:A32NX_ELEC_AC_ESS_SHED_BUS_IS_POWERED, bool) &#xA;(L:A32NX_ELEC_AC_STAT_INV_BUS_IS_POWERED, bool) or &#xA;(L:A32NX_ELEC_AC_2_BUS_IS_POWERED, bool) or and " UUID="e46e7756-215d-4a9d-af33-bbdd2b07ea6b" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 1" registerOutputPin="Output 4" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="68b48f1e-e661-4097-a5fc-89e3917cf692">
+      <active>true</active>
+      <description>BAT1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_ELEC_BAT_1_POTENTIAL, number)" UUID="8dbded6c-d3be-4bbe-a64d-797dd82be063" />
+        <test type="Float" value="123465" />
+        <modifiers />
+        <display type="Display Module" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="6" ledPadding="False" ledPaddingChar="0" ledDigits="3,4,5" ledDecimalPoints="4" />
+        <preconditions>
+          <precondition type="config" active="false" ref="6cdd3af7-f177-4b52-96b5-d0ba573ceeec" operand="=" value="0" logic="and" />
+          <precondition type="config" active="false" ref="a90e4c0a-ad90-496c-836a-b8dc0191cd0f" operand="=" value="0" logic="and" />
+          <precondition type="config" active="false" ref="a3870816-0130-47f1-bc38-50a1e71f3978" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="65c67bee-a130-4da2-b92e-671fd7638679">
+      <active>true</active>
+      <description>BAT2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:A32NX_ELEC_BAT_2_POTENTIAL, number)" UUID="bde5d497-107f-4e7e-b14c-9acc2d7be333" />
+        <test type="Float" value="123465" />
+        <modifiers />
+        <display type="Display Module" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="6" ledPadding="False" ledPaddingChar="0" ledDigits="0,1,2" ledDecimalPoints="1" />
+        <preconditions>
+          <precondition type="config" active="false" ref="6cdd3af7-f177-4b52-96b5-d0ba573ceeec" operand="=" value="0" logic="and" />
+          <precondition type="config" active="false" ref="a90e4c0a-ad90-496c-836a-b8dc0191cd0f" operand="=" value="0" logic="and" />
+          <precondition type="config" active="false" ref="a3870816-0130-47f1-bc38-50a1e71f3978" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6cdd3af7-f177-4b52-96b5-d0ba573ceeec">
+      <active>false</active>
+      <description>EMER EXIT LT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_OH_INT_LT_EMER_OFF)" UUID="12c3878e-bfaa-4279-b9cb-1118caa4b1d3" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="ShiftRegister" serial="Rowsfire A107/ SN-783-1BE" trigger="normal" shiftRegister="ShiftRegister 2" registerOutputPin="Output 22" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="bfbe3d58-d6bf-435e-90a8-fe7e33ed8526">
+      <active>true</active>
+      <description>STROBE ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:LIGHTING_STROBE_0)&#xA;0 (&gt;L:STROBE_0_Auto) 0 0 r (&gt;K:2:STROBES_SET)" presetId="909a1e70-5ea4-4d9c-b043-7ed97e60c364" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_STROBE_0)&#xA;1 (&gt;L:STROBE_0_Auto) 1 0 r (&gt;K:2:STROBES_SET)" presetId="19f524cc-75b6-464f-b69c-9b328e701bf9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f4ffcc94-0a62-4f91-9462-b02103753713">
+      <active>true</active>
+      <description>STROBE AUTO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:LIGHTING_STROBE_0)&#xA;0 (&gt;L:STROBE_0_Auto) 1 0 r (&gt;K:2:STROBES_SET)" presetId="b16d3396-e6a2-4d00-a193-81068b7240fa" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_STROBE_0)&#xA;1 (&gt;L:STROBE_0_Auto) 1 0 r (&gt;K:2:STROBES_SET)" presetId="19f524cc-75b6-464f-b69c-9b328e701bf9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="55c667a2-fbea-4f98-9fa8-ea8dc8c41dcb">
+      <active>true</active>
+      <description>ONSMOKING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_Position, number)" presetId="853c9228-8aef-4b4d-9944-e6a421f46639" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_Position, number)" presetId="e87442ea-92db-43e8-beff-38b50e71c5f5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="746cbc9f-1339-40c5-bae2-2ddcea31a770">
+      <active>true</active>
+      <description>BEACON ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="0 1 (&gt;K:2:BEACON_LIGHTS_SET) " presetId="259347a1-5984-4e21-8bc4-dfe3a7f6be7a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;K:BEACON_LIGHTS_SET)" presetId="00928f01-b8eb-4e44-b9a7-c42a03d36ece" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="65578d46-41ed-40eb-a5a8-26a51435f2fe">
+      <active>true</active>
+      <description>LAND-L-ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:LIGHTING_LANDING_2)&#xA;1 (&gt;L:LANDING_2_Retracted) 0 2 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="cf942ad7-9231-4024-b653-78716c61384b" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_2)&#xA;0 (&gt;L:LANDING_2_Retracted) 0 2 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="3fd1c0e8-0261-4cbc-b4d0-341d0e4e8aa2" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f2551075-1ae7-431b-a18f-67853b2b3766">
+      <active>true</active>
+      <description>WING ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="0 1 (&gt;K:2:WING_LIGHTS_SET) &#xA;1 1 (&gt;K:2:WING_LIGHTS_SET) " presetId="b7aa37f9-63f1-4e05-ad1d-d8fbf403b28a" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 0 (&gt;K:2:WING_LIGHTS_SET) &#xA;1 0 (&gt;K:2:WING_LIGHTS_SET) " presetId="30f4286f-aae3-4189-a0aa-ac92ee360eb0" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c6b524a3-0401-4dfb-b31d-93765504d5f5">
+      <active>true</active>
+      <description>NAV&amp;LOGO ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:LIGHTING_NAV_0)&#xA;0 0 (&gt;K:2:NAV_LIGHTS_SET) 0 0 (&gt;K:2:LOGO_LIGHTS_SET)" presetId="7b16aee4-7a96-4cad-81f3-0c1bde09ab9d" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_NAV_0)&#xA;0 1 (&gt;K:2:NAV_LIGHTS_SET) 0 1 (&gt;K:2:LOGO_LIGHTS_SET)" presetId="96669a82-2cdc-49a0-8a32-c7a9c3530e3d" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="92ec0c2b-2faa-46f1-a409-a70e50fcdf0b">
+      <active>true</active>
+      <description>NAV&amp;LOGO AUTO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_NAV_0)&#xA;0 1 (&gt;K:2:NAV_LIGHTS_SET) 0 1 (&gt;K:2:LOGO_LIGHTS_SET)" presetId="96669a82-2cdc-49a0-8a32-c7a9c3530e3d" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 0 (&gt;K:2:NAV_LIGHTS_SET) &#xA;0 0 (&gt;K:2:LOGO_LIGHTS_SET)" presetId="5ffc07f2-7479-4d57-8605-b26eacc9df48" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="691f6e43-977c-40da-a087-ac9e2822b07b">
+      <active>true</active>
+      <description>ICE ENG2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_2_POSITION, Bool) ! (&gt;L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_2_POSITION, Bool)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG2_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG2_Pressed)" presetId="a07c8f1c-950a-40e7-a27c-5925dcda876b" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_2_POSITION, Bool) ! (&gt;L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_2_POSITION, Bool)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG2_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG2_Pressed)" presetId="a07c8f1c-950a-40e7-a27c-5925dcda876b" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bb40f201-49b3-455a-a8ac-e52e96beb986">
+      <active>true</active>
+      <description>ICE ENG1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_1_POSITION, Bool) ! (&gt;L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_1_POSITION, Bool)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG1_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG1_Pressed)" presetId="379cff93-b27f-4c49-9028-8aafb761bc60" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_1_POSITION, Bool) ! (&gt;L:A32NX_BUTTON_OVHD_ANTI_ICE_ENG_1_POSITION, Bool)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG1_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_ENG1_Pressed)" presetId="379cff93-b27f-4c49-9028-8aafb761bc60" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ccc34e84-458c-48d6-a94e-7d4ee388dacf">
+      <active>true</active>
+      <description>ICE WING</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_BUTTON_OVHD_ANTI_ICE_WING_POSITION, Bool) ! (&gt;L:A32NX_BUTTON_OVHD_ANTI_ICE_WING_POSITION, Bool)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_WING_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_WING_Pressed)" presetId="b490f98f-21f6-4c01-b5d1-7c9e91f371c7" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_BUTTON_OVHD_ANTI_ICE_WING_POSITION, Bool) ! (&gt;L:A32NX_BUTTON_OVHD_ANTI_ICE_WING_POSITION, Bool)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_WING_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ANTIICE_WING_Pressed)" presetId="b490f98f-21f6-4c01-b5d1-7c9e91f371c7" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cd2d7652-8b26-4952-8e67-3ace95f4c2a6">
+      <active>true</active>
+      <description>PACK2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_COND_PACK_2_PB_IS_ON, bool) ! (&gt;L:A32NX_OVHD_COND_PACK_2_PB_IS_ON, bool)" presetId="67330a4e-fcc5-4b85-9b22-4caf0c755737" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_COND_PACK_2_PB_IS_ON, bool) ! (&gt;L:A32NX_OVHD_COND_PACK_2_PB_IS_ON, bool)" presetId="67330a4e-fcc5-4b85-9b22-4caf0c755737" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="122414c1-228c-448e-b9f3-a5cec76646ff">
+      <active>true</active>
+      <description>PACK1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_COND_PACK_1_PB_IS_ON, bool) ! (&gt;L:A32NX_OVHD_COND_PACK_1_PB_IS_ON, bool)" presetId="740e69de-17c5-4711-9cec-258833339722" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_COND_PACK_1_PB_IS_ON, bool) ! (&gt;L:A32NX_OVHD_COND_PACK_1_PB_IS_ON, bool)" presetId="740e69de-17c5-4711-9cec-258833339722" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="73b7b3bf-c583-4979-8dd7-be8f4afa2291">
+      <active>true</active>
+      <description>RWY TURN OFF ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="1 sp0 &#xA;2 l0 (&gt;K:2:TAXI_LIGHTS_SET) &#xA;3 l0 (&gt;K:2:TAXI_LIGHTS_SET)" presetId="6018eedc-d57e-459d-91e5-419fb29061fd" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 sp0 &#xA;2 l0 (&gt;K:2:TAXI_LIGHTS_SET) &#xA;3 l0 (&gt;K:2:TAXI_LIGHTS_SET)" presetId="2f8d1e5d-286d-4d6b-bc07-48bde1fdf1eb" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2abc35c2-e845-426c-8ba4-422034d3d03a">
+      <active>true</active>
+      <description>LAND-L-OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:LIGHTING_LANDING_2)&#xA;0 (&gt;L:LANDING_2_Retracted) 1 2 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="852a4fa8-02a5-451c-abb6-1a001f154b7d" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_2)&#xA;0 (&gt;L:LANDING_2_Retracted) 0 2 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="3fd1c0e8-0261-4cbc-b4d0-341d0e4e8aa2" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="815b89de-dd70-498b-b9b2-121161de0a18">
+      <active>true</active>
+      <description>LAND-R-ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:LIGHTING_LANDING_3) &#xA;1 (&gt;L:LANDING_3_Retracted) 0 3 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="96181372-4acf-4c03-8c54-69c9ad85f05d" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_3) &#xA;0 (&gt;L:LANDING_3_Retracted) 0 3 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="ae2c7e4c-9778-41f2-8198-cd7529dae092" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bb8b5789-4e4b-42a4-a58d-cb03c3eb65d7">
+      <active>true</active>
+      <description>LAND-R-OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:LIGHTING_LANDING_3) &#xA;0 (&gt;L:LANDING_3_Retracted) 1 3 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="abfe3fe0-f18c-4352-abea-17fbfdcb141d" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_3) &#xA;0 (&gt;L:LANDING_3_Retracted) 0 3 r (&gt;K:2:LANDING_LIGHTS_SET)" presetId="ae2c7e4c-9778-41f2-8198-cd7529dae092" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="53cf174a-69e5-4c07-bbd1-a03c2eaa39bd">
+      <active>true</active>
+      <description>FIRE-APU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_FIRE_BUTTON_APU)" presetId="84486bc3-7327-41bb-b666-9a47b0bb80c9" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_FIRE_BUTTON_APU)" presetId="3afe49ea-75db-432b-bc40-a1164a41de63" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c95392a2-9970-43c0-ab45-69c538ca3f2e">
+      <active>true</active>
+      <description>FIRE-ENG2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_FIRE_BUTTON_ENG2)" presetId="53d468b4-3a86-4e76-8a2a-0a2604fb8a57" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_FIRE_BUTTON_ENG2)" presetId="59fed8cb-1117-4ac2-ae61-3ff4c939122c" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="377c9185-ebf0-454b-8cbb-90e0ef2c5883">
+      <active>true</active>
+      <description>NOSE TO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:LIGHTING_LANDING_1) &#xA;1 1 r (&gt;K:2:LANDING_LIGHTS_SET) &#xA;0 1 r (&gt;K:2:TAXI_LIGHTS_SET)" presetId="b214b197-fb87-4222-a373-91bffd60158b" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_1) &#xA;0 1 r (&gt;K:2:LANDING_LIGHTS_SET) &#xA;1 1 r (&gt;K:2:TAXI_LIGHTS_SET)&#xA;" presetId="76696abc-dcce-4148-be15-663bb3493f21" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e6a15bf4-a83c-4aa9-9840-c1e1a63c8881">
+      <active>true</active>
+      <description>START</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_APU_MASTER_SW_PB_IS_ON, Bool) if{ 1 (&gt;L:A32NX_OVHD_APU_START_PB_IS_ON) }" presetId="8ed639e8-e1cd-4832-be14-8402211dfca5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1650bb7f-c946-4f49-b491-49abba2d0480">
+      <active>true</active>
+      <description>NOSE TAXI</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:LIGHTING_LANDING_1) &#xA;0 1 r (&gt;K:2:LANDING_LIGHTS_SET) &#xA;0 1 r (&gt;K:2:TAXI_LIGHTS_SET)" presetId="2f8c9856-b323-4174-b707-01f5b6e07bc3" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_1) &#xA;0 1 r (&gt;K:2:LANDING_LIGHTS_SET) &#xA;1 1 r (&gt;K:2:TAXI_LIGHTS_SET)&#xA;" presetId="76696abc-dcce-4148-be15-663bb3493f21" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d03e608b-6684-4eff-bb23-3d713333a445">
+      <active>true</active>
+      <description>SEATBELTS ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="(A:CABIN SEATBELTS ALERT SWITCH, bool) ! if{ (&gt;K:CABIN_SEATBELTS_ALERT_SWITCH_TOGGLE) }" presetId="f6941e58-ffa8-4e04-aabc-9f8515e94c0f" />
+          <onRelease type="MSFS2020CustomInputAction" command="(A:CABIN SEATBELTS ALERT SWITCH, bool) if{ (&gt;K:CABIN_SEATBELTS_ALERT_SWITCH_TOGGLE) }" presetId="4f2687b6-3b70-49b3-9dbc-4f3f3b9b86ec" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e7d60d94-4eaa-4f8f-8d7b-60dd341318fa">
+      <active>true</active>
+      <description>ADIRS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_ADIRS_KEY_ENT) ++ (&gt;L:S_OH_ADIRS_KEY_ENT)" presetId="abe1cd92-e617-4ad3-ac87-bf7d17477a59" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_ADIRS_KEY_ENT) ++ (&gt;L:S_OH_ADIRS_KEY_ENT)" presetId="a2c1517a-a7db-4b05-8f13-2e6cda9262aa" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9e508b67-eba6-4769-b765-acc2514e0fd6">
+      <active>true</active>
+      <description>ONSMOKING OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_Position, number)" presetId="853c9228-8aef-4b4d-9944-e6a421f46639" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_Position, number)" presetId="e87442ea-92db-43e8-beff-38b50e71c5f5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="de29e6ac-d780-4d3b-9289-6f9d6b0244f9">
+      <active>true</active>
+      <description>ONSMOKING AUOT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_Position, number)" presetId="c0cb2e63-64c9-4afc-a16d-83745e0d09ab" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_Position, number)" presetId="e87442ea-92db-43e8-beff-38b50e71c5f5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="136799d1-208d-45e5-84d5-1f21f738be31">
+      <active>true</active>
+      <description>APUBLEED</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON, Bool) ! (&gt;L:A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON, Bool)" presetId="027dd59b-a157-49ca-9b75-bf8285c5c830" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON, Bool) ! (&gt;L:A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON, Bool)" presetId="027dd59b-a157-49ca-9b75-bf8285c5c830" />
+          <onHold holdDelay="350" repeatDelay="0" type="MSFS2020CustomInputAction" command="0 (&gt;L:S_OH_PNEUMATIC_APU_BLEED)" presetId="be50aed4-9d99-46d7-ba44-68bf0815aefb" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a512ff8f-efaf-4c35-987f-a291d226b3c9">
+      <active>true</active>
+      <description>MASTERSW</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_APU_MASTER_SW_PB_IS_ON, Bool) ! (&gt;L:A32NX_OVHD_APU_MASTER_SW_PB_IS_ON) " presetId="20771aae-e971-4e24-85dd-99f3ff89f74c" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_APU_MASTER_SW_PB_IS_ON, Bool) ! (&gt;L:A32NX_OVHD_APU_MASTER_SW_PB_IS_ON) " presetId="20771aae-e971-4e24-85dd-99f3ff89f74c" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a826db89-c482-43b2-a7e8-4f443f57200b">
+      <active>true</active>
+      <description>CALLS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:PUSH_OVHD_CALLS_ALL)" presetId="dbfc9a78-00f9-477b-9731-7d11dc956aa5" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:PUSH_OVHD_CALLS_ALL)" presetId="93e65119-d9d4-4af1-8943-9b027f0ae828" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46801c52-3fb2-4428-be0d-a4d30f866319">
+      <active>true</active>
+      <description>ADIRS-1-1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:A32NX_OVHD_ADIRS_IR_1_MODE_SELECTOR_KNOB)" presetId="ab5a5b89-4034-4a5f-8075-902f7cdb9f29" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_OVHD_ADIRS_IR_1_MODE_SELECTOR_KNOB)" presetId="1a7fd9c7-4d07-41fe-94c2-d187678ae028" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ce535892-6129-47f6-baea-9b9e8ab877a0">
+      <active>true</active>
+      <description>ADIRS-1-2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:A32NX_OVHD_ADIRS_IR_2_MODE_SELECTOR_KNOB)" presetId="e70bcd31-56ee-45d4-ac12-2a9948ac5f41" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_OVHD_ADIRS_IR_2_MODE_SELECTOR_KNOB)" presetId="dc87ad78-0295-445f-8b30-71c1ee82a272" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fb39ca8c-4213-4342-b053-4c5fcccbf178">
+      <active>true</active>
+      <description>GNDCTL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_RCDR_GROUND_CONTROL_ON,bool) ! if{ &#xA;   (A:GENERAL ENG OIL PRESSURE:1, psi) 18 &lt; sp1&#xA;   (A:GENERAL ENG OIL PRESSURE:2, psi) 18 &lt; sp2&#xA;   (L:A32NX_ELEC_DC_ESS_SHED_BUS_IS_POWERED,bool) l1 and l2 and&#xA;   if{ 1 (&gt;L:A32NX_RCDR_GROUND_CONTROL_ON,bool) } } &#xA;els{ 0 (&gt;L:A32NX_RCDR_GROUND_CONTROL_ON,bool) }" presetId="20cbb076-c10e-4eed-a272-c33a9ae2a486" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_RCDR_GROUND_CONTROL_ON,bool) ! if{ &#xA;   (A:GENERAL ENG OIL PRESSURE:1, psi) 18 &lt; sp1&#xA;   (A:GENERAL ENG OIL PRESSURE:2, psi) 18 &lt; sp2&#xA;   (L:A32NX_ELEC_DC_ESS_SHED_BUS_IS_POWERED,bool) l1 and l2 and&#xA;   if{ 1 (&gt;L:A32NX_RCDR_GROUND_CONTROL_ON,bool) } } &#xA;els{ 0 (&gt;L:A32NX_RCDR_GROUND_CONTROL_ON,bool) }" presetId="20cbb076-c10e-4eed-a272-c33a9ae2a486" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="843c6fd9-ce59-4898-a0ec-3fe2085ff036">
+      <active>true</active>
+      <description>CREWSUPPLY</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="(L:PUSH_OVHD_OXYGEN_CREW, Bool) ! (&gt;L:PUSH_OVHD_OXYGEN_CREW)" presetId="5f87af52-a1d0-4fe8-baa7-622648a6d135" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:PUSH_OVHD_OXYGEN_CREW, Bool) ! (&gt;L:PUSH_OVHD_OXYGEN_CREW)" presetId="5f87af52-a1d0-4fe8-baa7-622648a6d135" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1db333c1-beb6-4292-a348-2be8234d41bc">
+      <active>true</active>
+      <description>ADIRS-1-3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:A32NX_OVHD_ADIRS_IR_3_MODE_SELECTOR_KNOB)" presetId="6d1b7a3c-9bd0-4ffa-ac05-04a4ddc5abdd" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_OVHD_ADIRS_IR_3_MODE_SELECTOR_KNOB)" presetId="408d3507-ab2c-4c97-98d4-9841dc748c22" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5b9bc6b7-c75e-4ca3-a045-4355c3914002">
+      <active>true</active>
+      <description>ADIRS-2-1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_OVHD_ADIRS_IR_1_MODE_SELECTOR_KNOB)" presetId="b26c3972-dee2-431b-9b32-9a9f9cefa097" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_OVHD_ADIRS_IR_1_MODE_SELECTOR_KNOB)" presetId="1a7fd9c7-4d07-41fe-94c2-d187678ae028" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="967efb4f-7725-44c3-b400-e217d96b7c38">
+      <active>true</active>
+      <description>ADIRS-2-2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_OVHD_ADIRS_IR_2_MODE_SELECTOR_KNOB)" presetId="e9f3a2c2-e5a5-449b-884b-825e43aa45cf" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_OVHD_ADIRS_IR_2_MODE_SELECTOR_KNOB)" presetId="dc87ad78-0295-445f-8b30-71c1ee82a272" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46decb33-ed2d-4c8b-a9b2-aa39061d7dfd">
+      <active>true</active>
+      <description>ADIRS-2-3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_OVHD_ADIRS_IR_3_MODE_SELECTOR_KNOB)" presetId="bc99ffaa-d1b3-4fcc-9d3b-fbe0f1b1dc58" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_OVHD_ADIRS_IR_3_MODE_SELECTOR_KNOB)" presetId="408d3507-ab2c-4c97-98d4-9841dc748c22" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="43756dd9-695e-438e-9d55-a9894374d14c">
+      <active>true</active>
+      <description>PUMPS-1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="10">
+          <onPress type="MSFS2020CustomInputAction" command="9 (&gt;K:FUELSYSTEM_VALVE_TOGGLE) " presetId="3a9b3e65-372a-4c03-b587-a33c02b00d52" />
+          <onRelease type="MSFS2020CustomInputAction" command="9 (&gt;K:FUELSYSTEM_VALVE_TOGGLE) " presetId="3a9b3e65-372a-4c03-b587-a33c02b00d52" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1cd2a307-55b1-49d5-a65e-c04091fce408">
+      <active>true</active>
+      <description>PUMPS-2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="10 (&gt;K:FUELSYSTEM_VALVE_TOGGLE) " presetId="d910298d-6962-44d6-82e7-fbb012462992" />
+          <onRelease type="MSFS2020CustomInputAction" command="10 (&gt;K:FUELSYSTEM_VALVE_TOGGLE) " presetId="d910298d-6962-44d6-82e7-fbb012462992" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3baf0f30-0595-40a6-991a-f883dc1b40f1">
+      <active>true</active>
+      <description>PUMPS -L1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="fa49d278-6b41-484f-9509-668763fffc38" />
+          <onRelease type="MSFS2020CustomInputAction" command="2 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="fa49d278-6b41-484f-9509-668763fffc38" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dda58d4c-19b8-45d4-b327-ca48e9233506">
+      <active>true</active>
+      <description>PUMPS-MODESEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="9">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_FUEL_MODESEL_MANUAL) ! s0 (&gt;L:A32NX_OVHD_FUEL_MODESEL_MANUAL) &#xA;1 l0 + sp0&#xA;l0 4 (&gt;K:2:FUELSYSTEM_JUNCTION_SET)&#xA;l0 5 (&gt;K:2:FUELSYSTEM_JUNCTION_SET)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_FUEL_MODESEL_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_FUEL_MODESEL_Pressed)" presetId="8f5633f2-5f7e-4ecc-a889-d4568383b6e6" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_FUEL_MODESEL_MANUAL) ! s0 (&gt;L:A32NX_OVHD_FUEL_MODESEL_MANUAL) &#xA;1 l0 + sp0&#xA;l0 4 (&gt;K:2:FUELSYSTEM_JUNCTION_SET)&#xA;l0 5 (&gt;K:2:FUELSYSTEM_JUNCTION_SET)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_FUEL_MODESEL_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_FUEL_MODESEL_Pressed)" presetId="8f5633f2-5f7e-4ecc-a889-d4568383b6e6" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="967b3450-0548-4d9b-a83a-72e91ff730e9">
+      <active>true</active>
+      <description>NOSE OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:LIGHTING_LANDING_1) &#xA;1 1 r (&gt;K:2:LANDING_LIGHTS_SET) &#xA;0 1 r (&gt;K:2:TAXI_LIGHTS_SET)" presetId="b214b197-fb87-4222-a373-91bffd60158b" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:LIGHTING_LANDING_1) &#xA;0 1 r (&gt;K:2:LANDING_LIGHTS_SET) &#xA;1 1 r (&gt;K:2:TAXI_LIGHTS_SET)&#xA;" presetId="76696abc-dcce-4148-be15-663bb3493f21" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9187d4f1-72ea-4d7e-b415-1e219a5cf6d3">
+      <active>true</active>
+      <description>PUMPS -L2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="5 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="8ec7f27e-c556-429a-be78-033bf83822ae" />
+          <onRelease type="MSFS2020CustomInputAction" command="5 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="8ec7f27e-c556-429a-be78-033bf83822ae" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b58a4996-c570-4a6b-8386-27310d24e654">
+      <active>true</active>
+      <description>PUMPS-R1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="3 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="1b3978c8-90ca-43a6-ba6d-a0da241fc8a9" />
+          <onRelease type="MSFS2020CustomInputAction" command="3 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="1b3978c8-90ca-43a6-ba6d-a0da241fc8a9" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a2a39e29-a748-4b27-80ad-5d10fcb1551d">
+      <active>true</active>
+      <description>PUMPS-R2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="6 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="fc078489-64bc-4c19-b0a9-b7b9e837aeda" />
+          <onRelease type="MSFS2020CustomInputAction" command="6 (&gt;K:FUELSYSTEM_PUMP_TOGGLE)" presetId="fc078489-64bc-4c19-b0a9-b7b9e837aeda" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e8c72ed1-c2c5-440a-8ea8-fcb284bc356a">
+      <active>true</active>
+      <description>BAT1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO) ! (&gt;L:A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO)" presetId="da9df773-d9c8-40a2-a3a3-59d97045f390" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO) ! (&gt;L:A32NX_OVHD_ELEC_BAT_1_PB_IS_AUTO)" presetId="da9df773-d9c8-40a2-a3a3-59d97045f390" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="391b2f11-27c1-43e5-8056-4d2ec01ac260">
+      <active>true</active>
+      <description>BAT2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO) ! (&gt;L:A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO)" presetId="ab6a136d-66f2-48d1-b94b-90e1bcc55745" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO) ! (&gt;L:A32NX_OVHD_ELEC_BAT_2_PB_IS_AUTO)" presetId="ab6a136d-66f2-48d1-b94b-90e1bcc55745" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="582efdff-dab0-4675-9240-d181112562ce">
+      <active>true</active>
+      <description>APUGEN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="8">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;K:APU_GENERATOR_SWITCH_TOGGLE)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ELEC_APUGEN_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ELEC_APUGEN_Pressed)" presetId="083f9aaf-ba23-4140-a456-e125f16053d0" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;K:APU_GENERATOR_SWITCH_TOGGLE)&#xA;(L:XMLVAR_Momentary_PUSH_OVHD_ELEC_APUGEN_Pressed) ! (&gt;L:XMLVAR_Momentary_PUSH_OVHD_ELEC_APUGEN_Pressed)" presetId="083f9aaf-ba23-4140-a456-e125f16053d0" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09fd233d-d68c-4dfe-be2f-b8ab8bd3941f">
+      <active>true</active>
+      <description>IR2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ADIRS_IR_3_PB_IS_ON) ! (&gt;L:A32NX_OVHD_ADIRS_IR_3_PB_IS_ON)" presetId="281832c4-075d-454d-9345-0b11c3fd2235" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="704aad19-5aef-4526-8a77-92025e435726">
+      <active>true</active>
+      <description>IR3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="11">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ADIRS_IR_2_PB_IS_ON) ! (&gt;L:A32NX_OVHD_ADIRS_IR_2_PB_IS_ON)" presetId="ee063cb3-b642-4f59-9f83-ff0317addd76" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c4b642ec-f8bf-4237-9065-efaf567b90c6">
+      <active>true</active>
+      <description>IR1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_OVHD_ADIRS_IR_1_PB_IS_ON) ! (&gt;L:A32NX_OVHD_ADIRS_IR_1_PB_IS_ON)" presetId="3bae420c-8b5f-4e35-bb38-830295736e30" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c95e56d2-4206-470c-aa16-9d385d01ed80">
+      <active>true</active>
+      <description>EXTPWR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_EXT_PWR_AVAIL:1,bool) if{&#xA;(L:A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON,Bool) ! (&gt;L:A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON,Bool) &#xA;}" presetId="0d34aedb-539c-49a7-a4cc-de3182e36bf0" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_ELEC_EXT_PWR) s0 2 % 0 != if{ l0 ++ (&gt;L:S_OH_ELEC_EXT_PWR) }" presetId="49408969-319d-451b-84c8-04981ea6a5dc" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c9db464b-e501-4fb2-a898-982e47a9368c">
+      <active>true</active>
+      <description>TA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="13">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:A32NX_SWITCH_TCAS_POSITION)" presetId="440ebdc3-95dd-4204-b44d-1801145cdfc5" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_SWITCH_TCAS_POSITION)" presetId="36976db1-b868-42af-b578-4ea862812bd6" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a469a5bd-7669-4235-ab67-8f138e466a65">
+      <active>true</active>
+      <description>TA/TR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="12">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_SWITCH_TCAS_POSITION)" presetId="b07cbb10-81be-4a98-addf-12f7253acc76" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_SWITCH_TCAS_POSITION)" presetId="36976db1-b868-42af-b578-4ea862812bd6" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5bdc4b89-75dc-4012-a96d-8b5713d303c1">
+      <active>true</active>
+      <description>EXIT ON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_Position)" presetId="efb1635b-4c1b-4fc7-af59-d2e8e0da5979" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_Position)" presetId="3abe58cd-33f2-4134-ae4d-7c7a52020197" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0e99ede5-1736-4577-8958-5cd87d49e18c">
+      <active>true</active>
+      <description>EXIT OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="2 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_Position)" presetId="0da1d325-54c4-435b-a33e-cb38121a8dcf" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:XMLVAR_SWITCH_OVHD_INTLT_EMEREXIT_Position)" presetId="3abe58cd-33f2-4134-ae4d-7c7a52020197" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0285aaba-b7b4-457f-b546-38277881aff4">
+      <active>true</active>
+      <description>TEST1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_FIRE_TEST_ENG1) " presetId="c52ea416-e416-4fd5-b84c-05c77cb3d9b6" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_FIRE_TEST_ENG1)" presetId="61369698-8a77-4b57-9154-bfdae06a22c5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="42c5335e-43b2-4f7e-9486-573081973a20">
+      <active>true</active>
+      <description>TEST-APU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_FIRE_TEST_APU) " presetId="3d2b8aa0-e4d2-4591-8863-a329e419259e" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_FIRE_TEST_APU)" presetId="e2cfa97b-ca70-4795-a269-718991b9ac5e" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="667186f0-3493-4767-8ef0-0e42668c6caa">
+      <active>true</active>
+      <description>FIRE-ENG1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_FIRE_BUTTON_ENG1)" presetId="f1888a14-dfe5-4795-8970-31554f512df5" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_FIRE_BUTTON_ENG1)&#xA;" presetId="e526b1b2-3186-4853-aabb-7eacf4fc6439" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="23e6108d-4bee-49bb-be11-914c80eb665b">
+      <active>true</active>
+      <description>TEST2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:A32NX_FIRE_TEST_ENG2) " presetId="01cdade4-1d8f-42be-a640-d4b620648adb" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:A32NX_FIRE_TEST_ENG2)" presetId="cf193574-a400-4191-845f-4fff6dd32645" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b2c93d39-3cde-433b-821f-e27a58b69a05">
+      <active>true</active>
+      <description>LDGFLAP3</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="(L:A32NX_GPWS_FLAPS3,bool) ! (&gt;L:A32NX_GPWS_FLAPS3)" presetId="7139a0ff-57b5-41da-a022-0630b401fea7" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:A32NX_GPWS_FLAPS3,bool) ! (&gt;L:A32NX_GPWS_FLAPS3)" presetId="7139a0ff-57b5-41da-a022-0630b401fea7" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f7972af3-e71b-4700-adeb-32928765773f">
+      <active>true</active>
+      <description>WIPER-OFF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="15">
+          <onPress type="MSFS2020CustomInputAction" command="(A:CIRCUIT SWITCH ON:77,bool) if{ 77 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE) }" presetId="24751965-c310-4480-b59b-9a6c085afcd3" />
+          <onRelease type="MSFS2020CustomInputAction" command="(A:CIRCUIT SWITCH ON:77,bool) ! if{ 77 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE) } 75 77 (&gt;K:2:ELECTRICAL_CIRCUIT_POWER_SETTING_SET)" presetId="b8710d1f-b1ca-4620-bf09-2233d2330880" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fa9cfbd1-41c6-4922-8f29-c34521ad063d">
+      <active>true</active>
+      <description>WIPER-FAST</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Multiplexer 4" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="14">
+          <onPress type="MSFS2020CustomInputAction" command="(A:CIRCUIT SWITCH ON:77,bool) ! if{ 77 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE) } 100 77 (&gt;K:2:ELECTRICAL_CIRCUIT_POWER_SETTING_SET)" presetId="11f00348-9108-4eb1-a383-6b9e0a513cc3" />
+          <onRelease type="MSFS2020CustomInputAction" command="(A:CIRCUIT SWITCH ON:77,bool) ! if{ 77 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE) } 75 77 (&gt;K:2:ELECTRICAL_CIRCUIT_POWER_SETTING_SET)" presetId="b8710d1f-b1ca-4620-bf09-2233d2330880" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b08f0446-6441-4642-8b43-8bf361926449">
+      <active>false</active>
+      <description>OVHD INTEG LT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="Rowsfire A107/ SN-783-1BE" name="Analog Input" type="AnalogInput" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <analog>
+          <onChange type="MSFS2020CustomInputAction" command="@ 18 - -242 / 1 + 0 max 1 min index (&gt;L:A_OH_LIGHTING_OVD)&#xA;" presetId="c0b18092-7987-4946-9dea-5e9784b30f5a" />
+        </analog>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
