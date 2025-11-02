@@ -1,4 +1,4 @@
-Official Website  https://rowsfire.com/
+Official Website  https://rowsfire.com/   （The configuration file for Version V3 is no longer uploaded to GitHub. A QR code with the download link is provided within the product; please scan it to download the file yourself.）
 
 1.Install MobiFlightConnector.
 Download link  https://www.mobiflight.com
